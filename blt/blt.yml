@@ -1,6 +1,6 @@
 project:
   machine_name: blt-upstream
-  prefix: blt
+  prefix: BLT
   human_name: 'BLT POC Upstream'
   profile:
     name: minimal
@@ -16,4 +16,7 @@ cm:
   stratagy: core-only
   core:
     path: ../config
-    install_from_config: true
+    install_from_config: false
+    dirs:
+      sync:
+        path: ../config

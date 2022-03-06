@@ -16,9 +16,11 @@
         "drupal/default_content": "^2.0@alpha",
         "drupal/default_content_deploy": "^2.0",
         "drupal/better_normalizers": "1.x-dev",
-        "acquia/blt": "^13.0"
+        "acquia/blt": "^13.0",
+        "drupal/config_split": "^2.0"
     },
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "_README": "To make a custom upstream, clone this repository and add any dependencies to be provided by this upstream to this composer.json file. Leave the root-level composer.json file for the exclusive use of each individual site; do not modify it after your custom upstream has been published. See https://pantheon.io/docs/create-custom-upstream for more information."
     }
