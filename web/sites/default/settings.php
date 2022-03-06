@@ -35,3 +35,14 @@ if (file_exists($local_settings)) {
 
 // Relative path.
 $settings['default_content_deploy_content_directory'] = '../content';
+require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
+/**
+ * IMPORTANT.
+ *
+ * Do not include additional settings here. Instead, add them to settings
+ * included by `blt.settings.php`. See BLT's documentation for more detail.
+ *
+ * @link https://docs.acquia.com/blt/
+ */
+$settings['config_sync_directory'] = $repo_root . "/config";
+$settings['config_vcs_directory'] = $repo_root . "/config";

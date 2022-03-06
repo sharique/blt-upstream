@@ -1,4 +1,4 @@
-name: bbg-upstream
+name: blt-upstream
 recipe: pantheon
 config:
   framework: drupal8
@@ -8,6 +8,9 @@ services:
     config:
       php: .vscode/php.ini
 tooling:
+  blt:
+    service: appserver
+    cmd: /app/vendor/bin/blt
   xdebug-on:
     service: appserver
     description: Enable xdebug for apache.

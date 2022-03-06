@@ -1,0 +1,19 @@
+project:
+  machine_name: blt-upstream
+  prefix: blt
+  human_name: 'BLT POC Upstream'
+  profile:
+    name: minimal
+docroot: ${repo.root}/web
+validate:
+  acsf: false
+  deprecation:
+    modules: true
+    theme: true
+git:
+  default_branch: master
+cm:
+  stratagy: core-only
+  core:
+    path: ../config
+    install_from_config: true
