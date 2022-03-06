@@ -12,14 +12,15 @@
         "drupal/token": "^1.10",
         "drupal/admin_toolbar": "^3.1",
         "drupal/site_settings": "^1.19",
-        "drupal/config_ignore": "^2.3",
+        "drupal/config_ignore": "^3.0",
         "drupal/default_content": "^2.0@alpha",
         "drupal/default_content_deploy": "^2.0",
         "drupal/better_normalizers": "1.x-dev",
         "acquia/blt": "^13.0",
         "drupal/config_split": "^2.0",
         "drupal/varbase_bootstrap_paragraphs": "^9.0",
-        "drupal/vartheme_bs5": "^1.0@beta"
+        "drupal/vartheme_bs5": "^1.0@beta",
+        "drupal/config_filter": "^2.2"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
