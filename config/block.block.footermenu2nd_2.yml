@@ -1,0 +1,25 @@
+uuid: 2e2f1c92-b6bb-420a-b85f-e855946654cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu-2nd
+  module:
+    - system
+  theme:
+    - vartheme_bs5
+id: footermenu2nd_2
+theme: vartheme_bs5
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer-menu-2nd'
+settings:
+  id: 'system_menu_block:footer-menu-2nd'
+  label: 'Footer menu 2nd'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

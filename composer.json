@@ -72,7 +72,8 @@
             "cweagans/composer-patches": true,
             "drupal/core-composer-scaffold": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "acquia/blt": true
+            "acquia/blt": true,
+            "oomphinc/composer-installers-extender": true
         }
     }
 }

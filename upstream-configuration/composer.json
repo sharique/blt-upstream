@@ -17,7 +17,9 @@
         "drupal/default_content_deploy": "^2.0",
         "drupal/better_normalizers": "1.x-dev",
         "acquia/blt": "^13.0",
-        "drupal/config_split": "^2.0"
+        "drupal/config_split": "^2.0",
+        "drupal/varbase_bootstrap_paragraphs": "^9.0",
+        "drupal/vartheme_bs5": "^1.0@beta"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

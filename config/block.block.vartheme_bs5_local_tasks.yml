@@ -1,0 +1,29 @@
+uuid: d60ed7e6-6346-4f20-b650-597c8a91ad87
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - vartheme_bs5
+_core:
+  default_config_hash: qB6wWkWLVKZHZZ01D2Up0Lht9TdDAzejPX5J6ZRvqeg
+id: vartheme_bs5_local_tasks
+theme: vartheme_bs5
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: '/node/*'

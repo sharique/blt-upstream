@@ -1,0 +1,21 @@
+uuid: 31ff4c66-d0f4-45e4-9cd1-10a04f4b653e
+langcode: en
+status: true
+dependencies:
+  module:
+    - site_settings
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_renderedsitesettingsblock
+theme: bootstrap_barrio
+region: top_header
+weight: -8
+provider: null
+plugin: single_rendered_site_settings_block
+settings:
+  id: single_rendered_site_settings_block
+  label: 'Banner site settings'
+  label_display: '0'
+  provider: site_settings
+  setting: banner
+visibility: {  }
