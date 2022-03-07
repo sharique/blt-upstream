@@ -1,7 +1,7 @@
 api_version: 1
 
 workflows:
-  deploy:
+  sync_code:
     after:
       - type: webphp
         description: Import configuration from .yml files
