@@ -21,7 +21,8 @@
         "drupal/config_filter": "^2.2",
         "drupal/paragraphs": "^1.13",
         "drupal/bootstrap_barrio": "^5.5",
-        "drupal/webp": "^1.0@beta"
+        "drupal/webp": "^1.0@beta",
+        "drupal/disable_language": "^1.0@beta"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

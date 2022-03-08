@@ -14,7 +14,7 @@
         "http:\/\/default\/rest\/relation\/node\/page\/uid": [
             {
                 "href": "http:\/\/default\/user\/0?_format=hal_json",
-                "lang": "en"
+                "lang": "de"
             }
         ]
     },
@@ -30,8 +30,8 @@
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "de",
+            "lang": "de"
         }
     ],
     "type": [
@@ -78,33 +78,33 @@
                         "value": "53078e2e-6994-4849-8d77-99de8b3921b5"
                     }
                 ],
-                "lang": "en"
+                "lang": "de"
             }
         ]
     },
     "status": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "title": [
         {
             "value": "Software development. Consulting.",
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "created": [
         {
             "value": "2022-02-21T18:15:58+00:00",
-            "lang": "en",
+            "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "changed": [
         {
             "value": "2022-02-22T17:54:54+00:00",
-            "lang": "en",
+            "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -116,27 +116,27 @@
     "sticky": [
         {
             "value": false,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "path": [
         {
             "alias": null,
             "pid": null,
-            "langcode": "en",
-            "lang": "en"
+            "langcode": "de",
+            "lang": "de"
         }
     ],
     "body": [
@@ -145,7 +145,7 @@
             "format": "basic_html",
             "processed": "<p>We advise our clients across all relevant company divisions and develop holistic digital ecosystems for their companies that are specifically tailored to their needs. We strive to create functional solutions that perfectly fit into the workflow \u2013 and to put a smile on our clients\u2019 faces.<\/p>",
             "summary": "",
-            "lang": "en"
+            "lang": "de"
         }
     ]
 }

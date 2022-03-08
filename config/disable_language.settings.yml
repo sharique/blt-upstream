@@ -1,0 +1,8 @@
+_core:
+  default_config_hash: 6zW_rU8a954fIICyUPwbzqTIo1LijBemdAEjafOYQ2s
+langcode: de
+redirect_override_routes:
+  - user.reset.login
+  - entity.user.edit_form
+exclude_request_path:
+  pages: ''

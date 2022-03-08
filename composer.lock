@@ -2450,6 +2450,70 @@
             }
         },
         {
+            "name": "drupal/disable_language",
+            "version": "1.0.0-beta11",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/disable_language.git",
+                "reference": "8.x-1.0-beta11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/disable_language-8.x-1.0-beta11.zip",
+                "reference": "8.x-1.0-beta11",
+                "shasum": "90a737229299ec9e5b9b256c0372b11674ef19ed"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-beta11",
+                    "datestamp": "1607074504",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Grayle",
+                    "homepage": "https://www.drupal.org/user/3145497"
+                },
+                {
+                    "name": "L_VanDamme",
+                    "homepage": "https://www.drupal.org/user/3162503"
+                },
+                {
+                    "name": "Thomas Cys",
+                    "homepage": "https://www.drupal.org/user/2575770"
+                },
+                {
+                    "name": "nielsaers",
+                    "homepage": "https://www.drupal.org/user/752444"
+                },
+                {
+                    "name": "sandboxpl",
+                    "homepage": "https://www.drupal.org/user/2187728"
+                }
+            ],
+            "description": "Disable language lets you disable language",
+            "homepage": "http://drupal.org/project/disable_language",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/disable_language",
+                "issues": "http://drupal.org/project/issues/disable_language"
+            }
+        },
+        {
             "name": "drupal/entity_reference_revisions",
             "version": "1.9.0",
             "source": {
@@ -4206,7 +4270,7 @@
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration",
-                "reference": "d91242c30951dd4a29851561dbbcc5c93ea9261a"
+                "reference": "3d0f356d9ce53724b66ef4db2cbaf6e5026be01e"
             },
             "require": {
                 "acquia/blt": "^13.0",
@@ -4218,6 +4282,7 @@
                 "drupal/config_split": "^2.0",
                 "drupal/default_content": "^2.0@alpha",
                 "drupal/default_content_deploy": "^2.0",
+                "drupal/disable_language": "^1.0@beta",
                 "drupal/metatag": "^1.19",
                 "drupal/paragraphs": "^1.13",
                 "drupal/site_settings": "^1.19",

@@ -1,0 +1,17 @@
+uuid: 4997615e-8475-46fe-9c11-636a81472cf5
+langcode: de
+status: true
+dependencies:
+  module:
+    - disable_language
+third_party_settings:
+  disable_language:
+    disable: true
+    redirect_language: de
+_core:
+  default_config_hash: lBXDpdDPXQtrfTJQhr6MjRJJEEyYSoRJ0acdvHLsWeA
+id: en
+label: English
+direction: ltr
+weight: 0
+locked: false

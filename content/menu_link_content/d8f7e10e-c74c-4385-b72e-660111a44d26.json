@@ -19,8 +19,8 @@
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "de",
+            "lang": "de"
         }
     ],
     "bundle": [
@@ -42,7 +42,7 @@
     "title": [
         {
             "value": "COOKIE-EINSTELLUNGEN",
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "menu_name": [
@@ -80,20 +80,20 @@
     "changed": [
         {
             "value": "2022-03-06T04:51:35+00:00",
-            "lang": "en",
+            "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ]
 }
