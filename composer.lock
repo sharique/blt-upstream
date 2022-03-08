@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4616b4d5a1cd25f4827b618f411d3086",
+    "content-hash": "b3a5deb9a560d372f579d9f1c92c9b62",
     "packages": [
         {
             "name": "acquia/blt",
@@ -2506,6 +2506,66 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/html_formatter",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/html_formatter.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/html_formatter-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "a61b9c36fcc59fc10d1d246f9ae23b67e340ea71"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1590681856",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "albertski",
+                    "homepage": "https://www.drupal.org/user/1327432"
+                },
+                {
+                    "name": "michaelpporter",
+                    "homepage": "https://www.drupal.org/user/845350"
+                },
+                {
+                    "name": "mikeacklin",
+                    "homepage": "https://www.drupal.org/user/1198900"
+                },
+                {
+                    "name": "thejimbirch",
+                    "homepage": "https://www.drupal.org/user/2507260"
+                }
+            ],
+            "description": "Adds HTML Formatter to textfields",
+            "homepage": "https://www.drupal.org/project/html_formatter",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/html_formatter",
+                "issues": "https://www.drupal.org/project/issues/html_formatter"
             }
         },
         {

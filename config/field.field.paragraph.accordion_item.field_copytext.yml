@@ -1,0 +1,21 @@
+uuid: b116dbf6-ea95-46bf-8648-ca97158ddc24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_copytext
+    - paragraphs.paragraphs_type.accordion_item
+  module:
+    - text
+id: paragraph.accordion_item.field_copytext
+field_name: field_copytext
+entity_type: paragraph
+bundle: accordion_item
+label: Copytext
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
