@@ -1,0 +1,25 @@
+uuid: 82126c9f-cb7e-455c-89ae-9e1c29f0bba0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - tkd_barrio
+id: tkd_barrio_footer
+theme: tkd_barrio
+region: footer_first
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 661e7a27-34a0-4287-9ffa-dcbf9ed796a7
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: tkd_barrio_breadcrumbs
+theme: tkd_barrio
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 75a7498c-241e-44d0-bf3e-272eb50bc4b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-menu
+  module:
+    - system
+  theme:
+    - tkd_barrio
+id: tkd_barrio_topmenu
+theme: tkd_barrio
+region: primary_menu
+weight: -9
+provider: null
+plugin: 'system_menu_block:top-menu'
+settings:
+  id: 'system_menu_block:top-menu'
+  label: 'Top menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 3
+  expand_all_items: true
+visibility: {  }

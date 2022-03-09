@@ -1,0 +1,22 @@
+uuid: bd56895d-9772-4fd6-8d08-5a64d394bf60
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tkd_barrio_content
+theme: tkd_barrio
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

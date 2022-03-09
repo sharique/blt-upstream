@@ -1,0 +1,22 @@
+uuid: be8e6288-423f-4426-abd6-7bfeed6eb2b1
+langcode: de
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: tkd_barrio_help
+theme: tkd_barrio
+region: highlighted
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Hilfe
+  label_display: '0'
+  provider: help
+visibility: {  }

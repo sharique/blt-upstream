@@ -1,0 +1,22 @@
+uuid: 70ecf875-a8e2-4069-bf5c-691a086491e3
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: tkd_barrio_powered
+theme: tkd_barrio
+region: footer_fifth
+weight: -9
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: a91204a0-b748-450a-9d27-1ace481b6feb
+langcode: en
+status: true
+dependencies:
+  module:
+    - site_settings
+  theme:
+    - tkd_barrio
+id: tkd_barrio_renderedsitesettingsblock
+theme: tkd_barrio
+region: highlighted
+weight: -9
+provider: null
+plugin: single_rendered_site_settings_block
+settings:
+  id: single_rendered_site_settings_block
+  label: 'Banner site settings'
+  label_display: '0'
+  provider: site_settings
+  setting: banner
+visibility: {  }

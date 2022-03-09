@@ -64,4 +64,6 @@ module:
 theme:
   seven: 0
   olivero: 0
+  bootstrap_barrio: 0
+  tkd_barrio: 0
 profile: minimal

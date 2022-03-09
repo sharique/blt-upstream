@@ -1,0 +1,25 @@
+uuid: 05e6d5c6-9e29-4b99-82b7-5c203e7a5941
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu-2nd
+  module:
+    - system
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_footermenu2nd
+theme: bootstrap_barrio
+region: top_header
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer-menu-2nd'
+settings:
+  id: 'system_menu_block:footer-menu-2nd'
+  label: 'Footer menu 2nd'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

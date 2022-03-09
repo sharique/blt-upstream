@@ -1,0 +1,20 @@
+uuid: 14379f57-16d9-4bee-b411-24327bfcd1c9
+langcode: de
+status: true
+dependencies:
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: tkd_barrio_page_title
+theme: tkd_barrio
+region: content
+weight: -9
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

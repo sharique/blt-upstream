@@ -1,0 +1,25 @@
+uuid: b4ead6a6-e786-42e2-b042-5a8971d1f996
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu-2nd
+  module:
+    - system
+  theme:
+    - tkd_barrio
+id: tkd_barrio_footermenu2nd
+theme: tkd_barrio
+region: footer_second
+weight: -9
+provider: null
+plugin: 'system_menu_block:footer-menu-2nd'
+settings:
+  id: 'system_menu_block:footer-menu-2nd'
+  label: 'Footer menu 2nd'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

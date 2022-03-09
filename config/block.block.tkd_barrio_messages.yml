@@ -1,0 +1,22 @@
+uuid: ac4768dd-f37d-465d-b460-71d9531783a6
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: tkd_barrio_messages
+theme: tkd_barrio
+region: highlighted
+weight: -10
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

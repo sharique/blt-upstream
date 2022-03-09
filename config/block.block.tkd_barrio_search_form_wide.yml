@@ -1,0 +1,23 @@
+uuid: b2c40e96-ab7f-4247-a741-9ca19f39b11a
+langcode: de
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: tkd_barrio_search_form_wide
+theme: tkd_barrio
+region: top_header_form
+weight: -9
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

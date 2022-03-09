@@ -1,0 +1,22 @@
+uuid: ed1888ba-6783-4d3d-bd09-d69fd89d0324
+langcode: de
+status: true
+dependencies:
+  theme:
+    - tkd_barrio
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: tkd_barrio_primary_local_tasks
+theme: tkd_barrio
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
