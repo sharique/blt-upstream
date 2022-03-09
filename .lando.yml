@@ -13,13 +13,20 @@ tooling:
     cmd: /app/vendor/bin/blt
   xdebug-on:
     service: appserver
-    description: Enable xdebug for apache.
-    cmd: "docker-php-ext-enable xdebug && /etc/init.d/apache2 reload"
+    description: Enable xdebug for nginx.
+    cmd:
+      - rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini -f
+      - docker-php-ext-enable xdebug
+      - pkill -o -USR2 php-fpm
+      - echo "Xdebug enabled"
     user: root
   xdebug-off:
     service: appserver
-    description: Disable xdebug for apache.
-    cmd: "rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && /etc/init.d/apache2 reload"
+    description: Disable xdebug for nginx.
+    cmd:
+      - rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini -f
+      - pkill -o -USR2 php-fpm
+      - echo "Xdebug disabled"
     user: root
   ssh-fix:
     service: appserver
