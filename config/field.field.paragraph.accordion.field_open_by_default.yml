@@ -11,8 +11,8 @@ id: paragraph.accordion.field_open_by_default
 field_name: field_open_by_default
 entity_type: paragraph
 bundle: accordion
-label: 'Anzeige zu Beginn'
-description: 'Das Akkordion wird am Anfang entsprechend angezeigt.'
+label: 'Open by default'
+description: 'Display of accordion at first.'
 required: false
 translatable: false
 default_value:
