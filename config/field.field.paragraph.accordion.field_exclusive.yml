@@ -1,0 +1,23 @@
+uuid: 37301b50-8272-4c98-a78f-a9d30df0c27e
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_exclusive
+    - paragraphs.paragraphs_type.accordion
+id: paragraph.accordion.field_exclusive
+field_name: field_exclusive
+entity_type: paragraph
+bundle: accordion
+label: 'Exklusive Anzeige'
+description: 'Nur ein Element soll exklusiv angezeigt werden.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: An
+  off_label: Aus
+field_type: boolean
