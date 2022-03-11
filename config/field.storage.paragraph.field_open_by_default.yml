@@ -13,13 +13,13 @@ settings:
   allowed_values:
     -
       value: all_open
-      label: 'Alles aufgeklappt'
+      label: 'all items open'
     -
       value: first_open
-      label: 'Erster Eintrag aufgeklappt'
+      label: 'first item open'
     -
       value: all_close
-      label: 'Alles zugeklappt'
+      label: 'all items close'
   allowed_values_function: ''
 module: options
 locked: false
