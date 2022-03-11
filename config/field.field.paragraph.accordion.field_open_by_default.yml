@@ -1,0 +1,23 @@
+uuid: 5c61c150-5600-4da9-bbd2-61d5c87968ff
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_open_by_default
+    - paragraphs.paragraphs_type.accordion
+  module:
+    - options
+id: paragraph.accordion.field_open_by_default
+field_name: field_open_by_default
+entity_type: paragraph
+bundle: accordion
+label: 'Anzeige zu Beginn'
+description: 'Das Akkordion wird am Anfang entsprechend angezeigt.'
+required: false
+translatable: false
+default_value:
+  -
+    value: all_close
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -1,0 +1,30 @@
+uuid: 8a12de7a-4c7c-4c23-8974-4ae1d12c9893
+langcode: de
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_open_by_default
+field_name: field_open_by_default
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: all_open
+      label: 'Alles aufgeklappt'
+    -
+      value: first_open
+      label: 'Erster Eintrag aufgeklappt'
+    -
+      value: all_close
+      label: 'Alles zugeklappt'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
