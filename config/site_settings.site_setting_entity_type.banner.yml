@@ -1,8 +1,0 @@
-uuid: d5733736-975a-493e-8680-29ca0bcad168
-langcode: en
-status: true
-dependencies: {  }
-id: banner
-label: Banner
-fieldset: Banner
-multiple: false
