@@ -3,7 +3,9 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.accordion.field_exclusive
     - field.field.paragraph.accordion.field_items
+    - field.field.paragraph.accordion.field_open_by_default
     - paragraphs.paragraphs_type.accordion
   module:
     - entity_reference_revisions
@@ -21,4 +23,6 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-hidden: {  }
+hidden:
+  field_exclusive: true
+  field_open_by_default: true

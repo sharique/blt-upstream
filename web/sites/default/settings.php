@@ -44,5 +44,4 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  *
  * @link https://docs.acquia.com/blt/
  */
-$settings['config_sync_directory'] = $repo_root . "/config";
-$settings['config_vcs_directory'] = $repo_root . "/config";
+$settings['config_sync_directory'] = $repo_root . "/config/default";

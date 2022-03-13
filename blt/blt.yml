@@ -16,7 +16,4 @@ cm:
   stratagy: core-only
   core:
     path: ../config
-    install_from_config: false
-    dirs:
-      sync:
-        path: ../config
+    install_from_config: true

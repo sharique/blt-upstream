@@ -1,6 +1,6 @@
 _core:
   default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
-langcode: en
+langcode: de
 uuid: 412f1464-308d-43d7-acd4-171e242c16ee
 name: 'BLT POC Upstream'
 mail: no-reply@example.com
