@@ -1,0 +1,212 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/1?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/page"
+        },
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/field_components": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "d461d0bd-a9fc-425a-8fdf-c53333e89be3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2022-03-14T12:21:29+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec46398-d3cc-4ebe-92ec-bc05597bfe74"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "eec46398-d3cc-4ebe-92ec-bc05597bfe74"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/field_components": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/accordion"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "608bb8b4-fa82-4ebc-9e3d-bed2649c9ca0"
+                    }
+                ],
+                "target_revision_id": "6"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/accordion"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a609e2d3-ecc5-4133-8c11-0f76f88d1bef"
+                    }
+                ],
+                "target_revision_id": "9"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/accordion"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5f333279-b2a2-4afc-91bb-426a52046bbc"
+                    }
+                ],
+                "target_revision_id": "12"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "title": [
+        {
+            "value": "Demo Accordion",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-11T16:32:26+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-03-14T12:21:29+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "de",
+            "lang": "de"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Here are some sample accordions.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Here are some sample accordions.<\/p>",
+            "summary": "",
+            "lang": "de"
+        }
+    ]
+}
