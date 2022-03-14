@@ -1,0 +1,130 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/localhost:49157\/rest\/type\/paragraph\/accordion"
+        },
+        "http:\/\/localhost:49157\/rest\/relation\/paragraph\/accordion\/field_items": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 9
+        }
+    ],
+    "uuid": [
+        {
+            "value": "5f333279-b2a2-4afc-91bb-426a52046bbc"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "accordion"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-14T12:20:22+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_components"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "field_exclusive": [
+        {
+            "value": true
+        }
+    ],
+    "_embedded": {
+        "http:\/\/localhost:49157\/rest\/relation\/paragraph\/accordion\/field_items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/localhost:49157\/rest\/type\/paragraph\/accordion_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "63758273-e56c-4c09-aedb-2ff06b19080f"
+                    }
+                ],
+                "target_revision_id": "10"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/localhost:49157\/rest\/type\/paragraph\/accordion_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "97ad395d-1bb9-4cf1-9415-09fcb1826ea5"
+                    }
+                ],
+                "target_revision_id": "11"
+            }
+        ]
+    },
+    "field_open_by_default": [
+        {
+            "value": "first_open"
+        }
+    ]
+}
