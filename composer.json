@@ -24,6 +24,8 @@
         "drupal/core-recommended": "^9.2",
         "drupal/devel": "^4.1",
         "drupal/html_formatter": "^1.4",
+        "drupal/imagemagick": "^3.3",
+        "drupal/webp": "^1.0@beta",
         "drush/drush": "^10",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
