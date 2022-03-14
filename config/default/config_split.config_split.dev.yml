@@ -1,0 +1,17 @@
+uuid: 63f89df1-02f3-48ec-8db9-29d03fdaa148
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: Dev
+description: 'Configuration required for development environments like dev and local.'
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/envs/dev
+module:
+  devel: 0
+theme: {  }
+complete_list: {  }
+partial_list:
+  - system.performance

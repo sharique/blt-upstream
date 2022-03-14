@@ -45,3 +45,15 @@ require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
  * @link https://docs.acquia.com/blt/
  */
 $settings['config_sync_directory'] = $repo_root . "/config/default";
+
+/**
+ * Enable dev config split for local and dev environments.
+ */
+if (
+    isset($_ENV['PANTHEON_ENVIRONMENT']) &&
+    (($_ENV['PANTHEON_ENVIRONMENT'] == 'live') || ($_ENV['PANTHEON_ENVIRONMENT'] == 'test'))
+) {
+    $config['config_split.config_split.dev']['status'] = FALSE;
+} else {
+    $config['config_split.config_split.dev']['status'] = TRUE;
+}
