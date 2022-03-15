@@ -1,0 +1,130 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/paragraph\/accordion"
+        },
+        "http:\/\/default\/rest\/relation\/paragraph\/accordion\/field_items": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 6
+        }
+    ],
+    "uuid": [
+        {
+            "value": "a609e2d3-ecc5-4133-8c11-0f76f88d1bef"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "accordion"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-14T12:18:48+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "1"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_components"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "field_exclusive": [
+        {
+            "value": false
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/paragraph\/accordion\/field_items": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/accordion_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cf634c2a-5642-4ba6-959c-ba0342694fa4"
+                    }
+                ],
+                "target_revision_id": "7"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/accordion_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ddf0da76-885b-4502-9a43-3eb8ad8c614b"
+                    }
+                ],
+                "target_revision_id": "8"
+            }
+        ]
+    },
+    "field_open_by_default": [
+        {
+            "value": "all_open"
+        }
+    ]
+}
