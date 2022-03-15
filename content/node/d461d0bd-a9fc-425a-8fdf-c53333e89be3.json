@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/1?_format=hal_json"
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -31,7 +31,7 @@
     },
     "nid": [
         {
-            "value": 1
+            "value": 3
         }
     ],
     "uuid": [
