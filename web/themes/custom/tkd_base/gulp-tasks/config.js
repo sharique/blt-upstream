@@ -14,6 +14,10 @@ module.exports = {
     source: ['components/**/*.ts'],
     destination: 'dist/components',
   },
+  libs: {
+    source: ['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/bootstrap/dist/js/bootstrap.js'],
+    destination: 'dist/libs',
+  },
   svg: {
     source: ['svg/**/*.svg'],
     destination: 'dist/svg',

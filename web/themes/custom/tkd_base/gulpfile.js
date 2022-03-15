@@ -12,6 +12,7 @@ const tasks = [
   'images',
   'default',
   'watch',
+  'libs',
 ];
 
 tasks.forEach((task) => {

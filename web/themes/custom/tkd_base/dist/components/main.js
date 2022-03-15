@@ -1,3 +1,4 @@
+"use strict";
 // (($, Drupal) => {
 //   Drupal.behaviors.changeThis = {
 //     attach(settings, context) {
@@ -10,3 +11,5 @@
 //     },
 //   };
 // })(jQuery, Drupal);
+
+//# sourceMappingURL=../maps/main.js.map
