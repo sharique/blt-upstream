@@ -1,0 +1,32 @@
+name: Takde base theme
+description: Base theme for takeda sites.
+type: theme
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: stable9
+
+regions:
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+  content: 'Content'
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  footer: 'Footer'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
+
+libraries:
+  - core/normalize
+  - tkd_base/global
+
+components:
+  namespaces:
+    atoms: components/atoms
+    molecules: components/molecules
+    organisms: components/organisms
+    templates: components/templates
+    pages: components/pages

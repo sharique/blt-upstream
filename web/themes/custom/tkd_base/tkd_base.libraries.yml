@@ -1,0 +1,13 @@
+global:
+  css:
+    theme:
+      dist/components/global.css: {}
+  js:
+    dist/components/main.js:
+      attributes:
+        type: module
+
+# tailwind:
+#   css:
+#     theme:
+#       dist/components/tailwind.css: {}
