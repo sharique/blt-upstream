@@ -10,6 +10,7 @@ const tasks = [
   'prettier',
   'lint',
   'images',
+  "libs",
   'default',
   'watch',
 ];

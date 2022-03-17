@@ -6,8 +6,10 @@ global:
     dist/components/main.js:
       attributes:
         type: module
+  dependencies:
+    - tkd_base/boostrap
+    - core/drupal
 
-# tailwind:
-#   css:
-#     theme:
-#       dist/components/tailwind.css: {}
+boostrap:
+  js:
+    dist/libs/bootstrap.bundle.js: { minified: false}

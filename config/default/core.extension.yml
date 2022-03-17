@@ -64,4 +64,5 @@ module:
 theme:
   seven: 0
   olivero: 0
+  stable9: 0
 profile: minimal
