@@ -24,11 +24,12 @@ module:
   dblog: 0
   default_content_deploy: 0
   disable_language: 0
+  disable_user_1_edit: 0
   dynamic_page_cache: 0
   editor: 0
   entity_reference_revisions: 0
+  fast404: 0
   field: 0
-  field_ui: 0
   file: 0
   filter: 0
   hal: 0
@@ -57,7 +58,6 @@ module:
   toolbar: 0
   update: 0
   user: 0
-  views_ui: 0
   views: 10
   paragraphs: 11
   minimal: 1000

@@ -11,6 +11,8 @@ storage: folder
 folder: ../config/envs/dev
 module:
   devel: 0
+  views_ui: 0
+  field_ui: 0
 theme: {  }
 complete_list: {  }
 partial_list:
