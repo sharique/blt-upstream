@@ -1,15 +1,21 @@
 "use strict";
-// (($, Drupal) => {
-//   Drupal.behaviors.changeThis = {
-//     attach(settings, context) {
-//       if (context) {
-//         $(context);
-//       }
-//       if (settings) {
-//         (settings.card as { [key: string]: number }).toString();
-//       }
-//     },
-//   };
-// })(jQuery, Drupal);
+/**
+ * @file
+ * Added handler to Drop down menu.
+ */
+((Drupal) => {
+    Drupal.behaviors.tkd_dropdownMenu = {
+        attach(context, settings) {
+            const toggle = document.querySelector('.dropdown-item a.dropdown-toggle');
+            if (toggle != null) {
+                toggle.addEventListener('click', function (e) {
+                    // document.querySelector(this).next('ul').toggle();
+                    e.stopPropagation();
+                    e.preventDefault();
+                });
+            }
+        },
+    };
+})(Drupal);
 
 //# sourceMappingURL=../maps/main.js.map

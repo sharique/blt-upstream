@@ -10,9 +10,9 @@ const tasks = [
   'prettier',
   'lint',
   'images',
+  "libs",
   'default',
   'watch',
-  'libs',
 ];
 
 tasks.forEach((task) => {

@@ -8,8 +8,9 @@ global:
         type: module
   dependencies:
     - tkd_base/boostrap
-    - core/popperjs
+    - core/drupal
 
 boostrap:
   js:
-    dist/libs/bootstrap.js: { minified: false}
+    dist/libs/bootstrap.bundle.js: { minified: false}
+git s

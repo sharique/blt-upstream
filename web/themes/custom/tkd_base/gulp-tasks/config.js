@@ -15,7 +15,10 @@ module.exports = {
     destination: 'dist/components',
   },
   libs: {
-    source: ['node_modules/bootstrap/dist/js/bootstrap.min.js', 'node_modules/bootstrap/dist/js/bootstrap.js'],
+    source: [
+      'node_modules/bootstrap/dist/js/bootstrap.bundle.min.js',
+      'node_modules/bootstrap/dist/js/bootstrap.bundle.js',
+    ],
     destination: 'dist/libs',
   },
   svg: {

@@ -5,7 +5,7 @@ const sass = require('gulp-sass')(require('sass'));
 const sassGlob = require('gulp-sass-glob');
 const sourcemaps = require('gulp-sourcemaps');
 
-const postCSSOptions = [autoprefixer()];
+const postCSSOptions = [autoprefixer(),cssnano()];
 
 module.exports = (gulp, config) => {
   gulp.task('scss', () =>

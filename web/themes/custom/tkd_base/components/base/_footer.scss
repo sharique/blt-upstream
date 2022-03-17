@@ -1,0 +1,27 @@
+@import '../variables.scss';
+footer {
+  background-color: $primary;
+  color: #f5f5f5;
+  border-top: 1px solid $white;
+
+  .nav-item {
+    margin: 0 48px 24px 0;
+    .nav-link {
+      position: relative;
+
+      padding: 0;
+      margin: 0;
+
+      font-size: 12px;
+      font-weight: 300;
+
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #f5f5f5;
+    }
+
+    p {
+      padding: 0;
+    }
+  }
+}

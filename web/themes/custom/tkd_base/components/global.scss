@@ -1,11 +1,4 @@
 @import 'config.all';
+@import 'variables.scss';
 @import 'bootstrap.scss';
 @import 'base/*.scss';
-
-$takeda-blue: #064a7a;
-
-footer {
-  background: $takeda-blue;
-  color: #f5f5f5;
-  border-top: 1px solid $white;
-}
