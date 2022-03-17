@@ -13,4 +13,3 @@ global:
 boostrap:
   js:
     dist/libs/bootstrap.bundle.js: { minified: false}
-git s
