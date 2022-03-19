@@ -5,5 +5,6 @@ passthru('drush config-import -y');
 echo "Import of configuration complete.\n";
 //Clear all cache
 echo "Rebuilding cache.\n";
+passthru('drush cc drush');
 passthru('drush cr');
 echo "Rebuilding cache complete.\n";

@@ -1,6 +1,6 @@
 project:
   machine_name: blt-upstream
-  prefix: BLT
+  prefix: DRPL
   human_name: 'BLT POC Upstream'
   profile:
     name: minimal

@@ -8,6 +8,10 @@
 /web/sites/*/services*.yml
 !/web/sites/*/services.pantheon.*.yml
 !/web/sites/*/services.yml
+/web/sites/README.txt
+/web/sites/development.services.yml
+/web/sites/example.settings.local.php
+/web/sites/example.sites.php
 
 # Ignore paths that contain user-generated content.
 /web/sites/*/files
@@ -108,3 +112,6 @@ deployment_identifier
 
 # Ignore PHPStorm settings
 .idea/
+
+# Ignore node modules folder.
+/web/themes/custom/*/node_modules
