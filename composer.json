@@ -29,7 +29,7 @@
         "drupal/imagemagick": "^3.3",
         "drupal/seckit": "^2.0",
         "drupal/webp": "^1.0@beta",
-        "drush/drush": "^10",
+        "drush/drush": "^11.0",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
