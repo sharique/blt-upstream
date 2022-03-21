@@ -13,7 +13,6 @@
         "drupal/admin_toolbar": "^3.1",
         "drupal/site_settings": "^1.19",
         "drupal/config_ignore": "^3.0",
-        "drupal/default_content": "^2.0@alpha",
         "drupal/default_content_deploy": "^2.0",
         "drupal/better_normalizers": "1.x-dev",
         "acquia/blt": "^13.0",

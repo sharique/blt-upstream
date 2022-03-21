@@ -20,8 +20,9 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
-        "drupal/core-composer-scaffold": "^9.2",
-        "drupal/core-recommended": "^9.2",
+        "drupal/core": "^9.3",
+        "drupal/core-composer-scaffold": "^9.3",
+        "drupal/core-recommended": "^9.3",
         "drupal/devel": "^4.1",
         "drupal/disable_user_1_edit": "^1.4",
         "drupal/fast_404": "^2.0@alpha",
@@ -34,7 +35,7 @@
         "pantheon-upstreams/upstream-configuration": "self.version"
     },
     "require-dev": {
-        "drupal/core-dev": "^9.2"
+        "drupal/core-dev": "^9.3"
     },
     "conflict": {
             "drupal/drupal": "*"

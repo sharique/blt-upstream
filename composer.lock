@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d5037327531e38618d58dccb2981dca9",
+    "content-hash": "ad096b1d40deac7246bb3b2b79536794",
     "packages": [
         {
             "name": "acquia/blt",
@@ -2489,16 +2489,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "9.3.7",
+            "version": "9.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "a768174b00fa088027d460a80a13550e624b9bf8"
+                "reference": "e8e3b7e5b3353f7ebf24de9d39087df75bd66afe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/a768174b00fa088027d460a80a13550e624b9bf8",
-                "reference": "a768174b00fa088027d460a80a13550e624b9bf8",
+                "url": "https://api.github.com/repos/drupal/core/zipball/e8e3b7e5b3353f7ebf24de9d39087df75bd66afe",
+                "reference": "e8e3b7e5b3353f7ebf24de9d39087df75bd66afe",
                 "shasum": ""
             },
             "require": {
@@ -2740,9 +2740,9 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/9.3.7"
+                "source": "https://github.com/drupal/core/tree/9.3.8"
             },
-            "time": "2022-03-03T09:23:53+00:00"
+            "time": "2022-03-16T15:34:53+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
@@ -2796,16 +2796,16 @@
         },
         {
             "name": "drupal/core-recommended",
-            "version": "9.3.7",
+            "version": "9.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "29f6f29672861a5719701a59aae26aafbb4c9495"
+                "reference": "98048032809157c723131ecc2394ff55421d5dc6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/29f6f29672861a5719701a59aae26aafbb4c9495",
-                "reference": "29f6f29672861a5719701a59aae26aafbb4c9495",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/98048032809157c723131ecc2394ff55421d5dc6",
+                "reference": "98048032809157c723131ecc2394ff55421d5dc6",
                 "shasum": ""
             },
             "require": {
@@ -2814,7 +2814,7 @@
                 "doctrine/annotations": "1.13.2",
                 "doctrine/lexer": "1.2.1",
                 "doctrine/reflection": "1.2.2",
-                "drupal/core": "9.3.7",
+                "drupal/core": "9.3.8",
                 "egulias/email-validator": "3.1.2",
                 "guzzlehttp/guzzle": "6.5.5",
                 "guzzlehttp/promises": "1.5.1",
@@ -2876,85 +2876,9 @@
             ],
             "description": "Locked core dependencies; require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/9.3.7"
+                "source": "https://github.com/drupal/core-recommended/tree/9.3.8"
             },
-            "time": "2022-03-03T09:23:53+00:00"
-        },
-        {
-            "name": "drupal/default_content",
-            "version": "2.0.0-alpha1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/default_content.git",
-                "reference": "2.0.0-alpha1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha1.zip",
-                "reference": "2.0.0-alpha1",
-                "shasum": "0d534ab8e44786a352e24c7cec3dc06bef155f66"
-            },
-            "require": {
-                "drupal/core": "^8.7.7 || ^9"
-            },
-            "require-dev": {
-                "drupal/paragraphs": "^1"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "2.0.0-alpha1",
-                    "datestamp": "1595072288",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                },
-                "drush": {
-                    "services": {
-                        "drush.services.yml": "^9"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Berdir",
-                    "homepage": "https://www.drupal.org/user/214652"
-                },
-                {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
-                },
-                {
-                    "name": "andypost",
-                    "homepage": "https://www.drupal.org/user/118908"
-                },
-                {
-                    "name": "benjy",
-                    "homepage": "https://www.drupal.org/user/1852732"
-                },
-                {
-                    "name": "dawehner",
-                    "homepage": "https://www.drupal.org/user/99340"
-                },
-                {
-                    "name": "jibran",
-                    "homepage": "https://www.drupal.org/user/1198144"
-                },
-                {
-                    "name": "larowlan",
-                    "homepage": "https://www.drupal.org/user/395439"
-                }
-            ],
-            "description": "Imports default content when a module is enabled",
-            "homepage": "https://www.drupal.org/project/default_content",
-            "support": {
-                "source": "https://git.drupalcode.org/project/default_content"
-            }
+            "time": "2022-03-16T15:34:53+00:00"
         },
         {
             "name": "drupal/default_content_deploy",
@@ -5384,7 +5308,7 @@
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration",
-                "reference": "3d0f356d9ce53724b66ef4db2cbaf6e5026be01e"
+                "reference": "ab810946fb94c955c77dedfdb4059e1964e437c9"
             },
             "require": {
                 "acquia/blt": "^13.0",
@@ -5394,7 +5318,6 @@
                 "drupal/config_filter": "^2.2",
                 "drupal/config_ignore": "^3.0",
                 "drupal/config_split": "^2.0",
-                "drupal/default_content": "^2.0@alpha",
                 "drupal/default_content_deploy": "^2.0",
                 "drupal/disable_language": "^1.0@beta",
                 "drupal/metatag": "^1.19",
@@ -9776,16 +9699,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.2.7",
+            "version": "2.2.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "061d154dfdde157cbf453c4695e6af21c0e93903"
+                "reference": "07eccf080ad63d55d95a7c9133506db7d9029264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/061d154dfdde157cbf453c4695e6af21c0e93903",
-                "reference": "061d154dfdde157cbf453c4695e6af21c0e93903",
+                "url": "https://api.github.com/repos/composer/composer/zipball/07eccf080ad63d55d95a7c9133506db7d9029264",
+                "reference": "07eccf080ad63d55d95a7c9133506db7d9029264",
                 "shasum": ""
             },
             "require": {
@@ -9855,7 +9778,7 @@
             "support": {
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.2.7"
+                "source": "https://github.com/composer/composer/tree/2.2.9"
             },
             "funding": [
                 {
@@ -9871,7 +9794,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T10:12:27+00:00"
+            "time": "2022-03-15T21:13:37+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -10351,7 +10274,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "9.3.7",
+            "version": "9.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -10395,7 +10318,7 @@
             ],
             "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-dev/tree/9.3.7"
+                "source": "https://github.com/drupal/core-dev/tree/9.3.8"
             },
             "time": "2021-11-30T05:41:29+00:00"
         },
@@ -11486,16 +11409,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.17",
+            "version": "9.5.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "5c5abcfaa2cbd44b2203995d7a339ef910fe0c8f"
+                "reference": "35ea4b7f3acabb26f4bb640f8c30866c401da807"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5c5abcfaa2cbd44b2203995d7a339ef910fe0c8f",
-                "reference": "5c5abcfaa2cbd44b2203995d7a339ef910fe0c8f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/35ea4b7f3acabb26f4bb640f8c30866c401da807",
+                "reference": "35ea4b7f3acabb26f4bb640f8c30866c401da807",
                 "shasum": ""
             },
             "require": {
@@ -11525,7 +11448,7 @@
                 "sebastian/global-state": "^5.0.1",
                 "sebastian/object-enumerator": "^4.0.3",
                 "sebastian/resource-operations": "^3.0.3",
-                "sebastian/type": "^2.3.4",
+                "sebastian/type": "^3.0",
                 "sebastian/version": "^3.0.2"
             },
             "require-dev": {
@@ -11573,7 +11496,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.17"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.19"
             },
             "funding": [
                 {
@@ -11585,7 +11508,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-03-05T16:54:31+00:00"
+            "time": "2022-03-15T09:57:31+00:00"
         },
         {
             "name": "react/promise",
@@ -12520,28 +12443,28 @@
         },
         {
             "name": "sebastian/type",
-            "version": "2.3.4",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "b8cd8a1c753c90bc1a0f5372170e3e489136f914"
+                "reference": "b233b84bc4465aff7b57cf1c4bc75c86d00d6dad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/b8cd8a1c753c90bc1a0f5372170e3e489136f914",
-                "reference": "b8cd8a1c753c90bc1a0f5372170e3e489136f914",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/b233b84bc4465aff7b57cf1c4bc75c86d00d6dad",
+                "reference": "b233b84bc4465aff7b57cf1c4bc75c86d00d6dad",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.3"
+                "phpunit/phpunit": "^9.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.3-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -12564,7 +12487,7 @@
             "homepage": "https://github.com/sebastianbergmann/type",
             "support": {
                 "issues": "https://github.com/sebastianbergmann/type/issues",
-                "source": "https://github.com/sebastianbergmann/type/tree/2.3.4"
+                "source": "https://github.com/sebastianbergmann/type/tree/3.0.0"
             },
             "funding": [
                 {
@@ -12572,7 +12495,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-15T12:49:02+00:00"
+            "time": "2022-03-15T09:54:48+00:00"
         },
         {
             "name": "sebastian/version",
