@@ -9,6 +9,7 @@ dependencies:
   module:
     - contextual
     - file
+    - media
     - node
     - path
     - system
@@ -25,13 +26,17 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access media overview'
   - 'access toolbar'
   - 'administer url aliases'
   - 'create article content'
+  - 'create media'
   - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'delete any media'
   - 'delete article revisions'
+  - 'delete media'
   - 'delete own article content'
   - 'delete own page content'
   - 'delete page revisions'
@@ -39,6 +44,10 @@ permissions:
   - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'update any media'
+  - 'update media'
+  - 'view all media revisions'
   - 'view all revisions'
   - 'view own unpublished content'
+  - 'view own unpublished media'
   - 'view the administration theme'
