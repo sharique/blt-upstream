@@ -1,0 +1,22 @@
+uuid: 0ef196ea-34d7-4e1b-a08a-8c32b2c26377
+langcode: de
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - tkd_base
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: tkd_base_help
+theme: tkd_base
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Hilfe
+  label_display: '0'
+  provider: help
+visibility: {  }

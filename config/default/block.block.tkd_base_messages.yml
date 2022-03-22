@@ -1,0 +1,22 @@
+uuid: 8c22478b-06b0-4dfe-a5da-c4bf4ef1740d
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_base
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: tkd_base_messages
+theme: tkd_base
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

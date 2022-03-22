@@ -1,20 +1,20 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/1\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/15\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/menu_link_content\/menu_link_content"
         },
         "http:\/\/default\/rest\/relation\/menu_link_content\/menu_link_content\/menu_link_content_target_entity": [
             {
-                "href": "http:\/\/default\/node\/1?_format=hal_json"
+                "href": "http:\/\/default\/node\/2?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 1
+            "value": 15
         }
     ],
     "uuid": [
@@ -57,7 +57,7 @@
     ],
     "link": [
         {
-            "uri": "entity:node\/1",
+            "uri": "entity:node\/2",
             "title": "",
             "options": [],
             "target_uuid": "ac90ca70-4aa8-4fd1-afb2-bd51328db5f3"
@@ -107,7 +107,7 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/node\/1?_format=hal_json"
+                        "href": "http:\/\/default\/node\/2?_format=hal_json"
                     },
                     "type": {
                         "href": "http:\/\/default\/rest\/type\/node\/page"

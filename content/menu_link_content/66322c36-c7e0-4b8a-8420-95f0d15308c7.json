@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/en\/admin\/structure\/menu\/item\/11\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/31\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,18 +9,18 @@
     },
     "id": [
         {
-            "value": 11
+            "value": 31
         }
     ],
     "uuid": [
         {
-            "value": "f1cc2ce3-4229-4d47-834a-d43b09a60025"
+            "value": "66322c36-c7e0-4b8a-8420-95f0d15308c7"
         }
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "de",
+            "lang": "de"
         }
     ],
     "bundle": [
@@ -30,7 +30,7 @@
     ],
     "revision_created": [
         {
-            "value": "2022-03-04T08:46:55+00:00",
+            "value": "2022-03-22T11:31:04+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -41,8 +41,8 @@
     ],
     "title": [
         {
-            "value": "Haemophilie",
-            "lang": "en"
+            "value": "Login",
+            "lang": "de"
         }
     ],
     "menu_name": [
@@ -54,7 +54,13 @@
         {
             "uri": "internal:#",
             "title": "",
-            "options": []
+            "options": {
+                "attributes": {
+                    "class": [
+                        "bbg-right-border text-takeda"
+                    ]
+                }
+            }
         }
     ],
     "external": [
@@ -69,7 +75,7 @@
     ],
     "weight": [
         {
-            "value": -49
+            "value": -43
         }
     ],
     "expanded": [
@@ -79,21 +85,21 @@
     ],
     "changed": [
         {
-            "value": "2022-03-22T11:31:21+00:00",
-            "lang": "en",
+            "value": "2022-03-22T11:33:13+00:00",
+            "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ]
 }

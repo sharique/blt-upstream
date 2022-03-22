@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/2\/edit?_format=hal_json"
+            "href": "http:\/\/default\/en\/admin\/structure\/menu\/item\/1\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,7 +9,7 @@
     },
     "id": [
         {
-            "value": 2
+            "value": 1
         }
     ],
     "uuid": [
@@ -69,7 +69,7 @@
     ],
     "weight": [
         {
-            "value": 0
+            "value": -50
         }
     ],
     "expanded": [
@@ -79,7 +79,7 @@
     ],
     "changed": [
         {
-            "value": "2022-03-04T08:46:36+00:00",
+            "value": "2022-03-22T11:31:21+00:00",
             "lang": "en",
             "format": "Y-m-d\\TH:i:sP"
         }

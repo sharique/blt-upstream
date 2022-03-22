@@ -1,0 +1,23 @@
+uuid: 51370a52-15a3-4671-9eaa-1ee439c392e4
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_base
+id: sitebranding
+theme: tkd_base
+region: header_main
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding name'
+  label_display: '0'
+  provider: system
+  use_site_logo: false
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
