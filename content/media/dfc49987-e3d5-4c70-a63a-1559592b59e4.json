@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/blt-upstream.lndo.site\/media\/1\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/media\/image"
+        },
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "de"
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "de"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "dfc49987-e3d5-4c70-a63a-1559592b59e4"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-03-21T22:56:02+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fb1bfbd6-7e0c-4d9a-8654-10c493a9529f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3b50494e-917f-45ee-9b15-3bdf76b54f60"
+                    }
+                ],
+                "lang": "de",
+                "alt": "an Image",
+                "title": null,
+                "width": "1900",
+                "height": "600"
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "3b50494e-917f-45ee-9b15-3bdf76b54f60"
+                    }
+                ],
+                "lang": "de",
+                "alt": "an Image",
+                "title": "",
+                "width": "1900",
+                "height": "600"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "0_Startseite_1900x600_v2.jpg",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-21T22:55:20+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-03-21T22:55:20+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "de",
+            "lang": "de"
+        }
+    ]
+}

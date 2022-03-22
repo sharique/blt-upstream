@@ -1,0 +1,135 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser"
+        },
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
+            {
+                "href": ""
+            },
+            {
+                "href": ""
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 12
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e633ce72-20c0-4498-85ec-4217cb02a002"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hero_teaser"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-21T22:48:35+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "4"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "node"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_components"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "field_display_indicators": [
+        {
+            "value": true
+        }
+    ],
+    "field_full_width": [
+        {
+            "value": false
+        }
+    ],
+    "_embedded": {
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "f8c93f5a-f1e2-4cc3-b789-0eec9634754d"
+                    }
+                ],
+                "target_revision_id": "28"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "646675fb-1aa2-4cfd-be2a-33505d1204d9"
+                    }
+                ],
+                "target_revision_id": "29"
+            }
+        ]
+    },
+    "field_style": [
+        {
+            "value": "default"
+        }
+    ]
+}

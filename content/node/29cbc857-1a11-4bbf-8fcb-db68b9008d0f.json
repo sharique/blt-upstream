@@ -1,0 +1,174 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/blt-upstream.lndo.site\/node\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/node\/page"
+        },
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/field_components": [
+            {
+                "href": ""
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "29cbc857-1a11-4bbf-8fcb-db68b9008d0f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2022-03-21T22:57:30+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fb1bfbd6-7e0c-4d9a-8654-10c493a9529f"
+                    }
+                ]
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fb1bfbd6-7e0c-4d9a-8654-10c493a9529f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/field_components": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e633ce72-20c0-4498-85ec-4217cb02a002"
+                    }
+                ],
+                "target_revision_id": "30"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "title": [
+        {
+            "value": "Demo Hero Teaser",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-21T22:47:46+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-03-21T22:57:30+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "de",
+            "lang": "de"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Here is an example of a Hero Teaser<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Here is an example of a Hero Teaser<\/p>",
+            "summary": "",
+            "lang": "de"
+        }
+    ]
+}

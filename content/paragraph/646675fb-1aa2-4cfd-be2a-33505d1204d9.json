@@ -1,0 +1,124 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser_item"
+        },
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+            {
+                "href": "https:\/\/blt-upstream.lndo.site\/media\/2\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 11
+        }
+    ],
+    "uuid": [
+        {
+            "value": "646675fb-1aa2-4cfd-be2a-33505d1204d9"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hero_teaser_item"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-21T22:52:49+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "12"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_hero_teaser_item"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "field_headline_hti": [
+        {
+            "value": "This is the headline 2"
+        }
+    ],
+    "field_link_url": [
+        {
+            "uri": "https:\/\/siteform.de",
+            "title": "SITEFORM",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/media\/2\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dd57d3e7-416c-404c-b69c-574cabed4827"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_teaser_text": [
+        {
+            "value": "<p>Here comes the teaser Text 2<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Here comes the teaser Text 2<\/p>"
+        }
+    ],
+    "field_text_align": [
+        {
+            "value": "left"
+        }
+    ]
+}
