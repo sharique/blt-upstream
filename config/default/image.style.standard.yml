@@ -1,0 +1,15 @@
+uuid: de736afe-f022-4fe7-9de0-f2fa8cc10211
+langcode: de
+status: true
+dependencies: {  }
+name: standard
+label: 'Standard (1200 x 800)'
+effects:
+  1a7bd3e0-3ebc-430b-bcfa-c03d1aaeb122:
+    uuid: 1a7bd3e0-3ebc-430b-bcfa-c03d1aaeb122
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: 800
+      upscale: false
