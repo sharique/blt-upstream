@@ -1,0 +1,10 @@
+uuid: 1b276705-5fb9-4bb0-aac1-bc1d4b096e7e
+langcode: de
+status: true
+dependencies: {  }
+id: hero_teaser_item
+label: 'Hero-Teaser item'
+icon_uuid: null
+icon_default: null
+description: 'To be used with Hero-teaser'
+behavior_plugins: {  }

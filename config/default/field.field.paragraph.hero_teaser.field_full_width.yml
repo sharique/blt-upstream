@@ -1,0 +1,23 @@
+uuid: ae36da96-4956-416c-91b0-00217ad6c9d3
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_full_width
+    - paragraphs.paragraphs_type.hero_teaser
+id: paragraph.hero_teaser.field_full_width
+field_name: field_full_width
+entity_type: paragraph
+bundle: hero_teaser
+label: Full.width
+description: "Defines if the teaser has a full-width (100% screen-width) or is placed inside the standard container. \r\nUnchecked (default) => placed inside standard container\r\nChecked => 100% screen width"
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

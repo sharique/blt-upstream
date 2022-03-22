@@ -1,0 +1,45 @@
+uuid: 757d3290-9f51-40cc-addb-062b4117fa7f
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_teaser_item.field_headline_hti
+    - field.field.paragraph.hero_teaser_item.field_link_url
+    - field.field.paragraph.hero_teaser_item.field_media
+    - field.field.paragraph.hero_teaser_item.field_teaser_text
+    - field.field.paragraph.hero_teaser_item.field_text_align
+    - paragraphs.paragraphs_type.hero_teaser_item
+  module:
+    - text
+id: paragraph.hero_teaser_item.default
+targetEntityType: paragraph
+bundle: hero_teaser_item
+mode: default
+content:
+  field_headline_hti:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_teaser_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_link_url: true
+  field_text_align: true
