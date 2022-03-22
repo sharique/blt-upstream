@@ -7,9 +7,11 @@
 }
 
 .bbg-right-border {
+  padding-right: 1em;
   border-right: 1px solid $header-text-color;
 }
 
 .bbg-left-border {
-  border-right: 1px solid $header-text-color;
+  padding-left: 1em;
+  border-left: 1px solid $header-text-color;
 }

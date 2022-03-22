@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/en\/admin\/structure\/menu\/item\/22\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/13\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,18 +9,18 @@
     },
     "id": [
         {
-            "value": 22
+            "value": 13
         }
     ],
     "uuid": [
         {
-            "value": "3d0ace4d-fd34-4333-a055-a6b6cc982a6c"
+            "value": "9a93fdb0-4990-49e4-9fec-e4832999eb7f"
         }
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "de",
+            "lang": "de"
         }
     ],
     "bundle": [
@@ -30,7 +30,7 @@
     ],
     "revision_created": [
         {
-            "value": "2022-03-04T08:47:04+00:00",
+            "value": "2022-03-21T10:49:08+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -41,13 +41,13 @@
     ],
     "title": [
         {
-            "value": "Immunologie",
-            "lang": "en"
+            "value": "Testing",
+            "lang": "de"
         }
     ],
     "menu_name": [
         {
-            "value": "main"
+            "value": "footer"
         }
     ],
     "link": [
@@ -69,7 +69,7 @@
     ],
     "weight": [
         {
-            "value": -48
+            "value": 0
         }
     ],
     "expanded": [
@@ -79,21 +79,21 @@
     ],
     "changed": [
         {
-            "value": "2022-03-22T11:31:21+00:00",
-            "lang": "en",
+            "value": "2022-03-21T10:49:08+00:00",
+            "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ]
 }

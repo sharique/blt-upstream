@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/en\/admin\/structure\/menu\/item\/22\/edit?_format=hal_json"
+            "href": "http:\/\/default\/admin\/structure\/menu\/item\/33\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,18 +9,18 @@
     },
     "id": [
         {
-            "value": 22
+            "value": 33
         }
     ],
     "uuid": [
         {
-            "value": "3d0ace4d-fd34-4333-a055-a6b6cc982a6c"
+            "value": "d20b9df7-25b0-4c40-bbb4-d68d418f1a36"
         }
     ],
     "langcode": [
         {
-            "value": "en",
-            "lang": "en"
+            "value": "de",
+            "lang": "de"
         }
     ],
     "bundle": [
@@ -30,7 +30,7 @@
     ],
     "revision_created": [
         {
-            "value": "2022-03-04T08:47:04+00:00",
+            "value": "2022-03-22T12:08:14+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -41,20 +41,26 @@
     ],
     "title": [
         {
-            "value": "Immunologie",
-            "lang": "en"
+            "value": "CED f\u00fcr Krankenschwestern und medizinische Fachbereiche",
+            "lang": "de"
         }
     ],
     "menu_name": [
         {
-            "value": "main"
+            "value": "header-icons"
         }
     ],
     "link": [
         {
             "uri": "internal:#",
             "title": "",
-            "options": []
+            "options": {
+                "attributes": {
+                    "class": [
+                        "icon fas fa-user-nurse fa-stack-1x fa-inverse has-circle"
+                    ]
+                }
+            }
         }
     ],
     "external": [
@@ -69,7 +75,7 @@
     ],
     "weight": [
         {
-            "value": -48
+            "value": -49
         }
     ],
     "expanded": [
@@ -79,21 +85,21 @@
     ],
     "changed": [
         {
-            "value": "2022-03-22T11:31:21+00:00",
-            "lang": "en",
+            "value": "2022-03-22T12:11:30+00:00",
+            "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "default_langcode": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ],
     "revision_translation_affected": [
         {
             "value": true,
-            "lang": "en"
+            "lang": "de"
         }
     ]
 }
