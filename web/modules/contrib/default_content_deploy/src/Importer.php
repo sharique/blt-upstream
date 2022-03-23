@@ -128,13 +128,6 @@ class Importer {
   protected $entityIdLookup = [];
 
   /**
-   * Root user.
-   *
-   * @var \Drupal\Core\Entity\EntityInterface|null
-   */
-  protected $rootUser = NULL;
-
-  /**
    * Constructs the default content deploy manager.
    *
    * @param \Symfony\Component\Serializer\Serializer $serializer
@@ -164,7 +157,6 @@ class Importer {
     $this->cache = $cache;
     $this->exporter = $exporter;
     $this->database = $database;
-    $this->rootUser = $entity_type_manager->getStorage('user')->load(1);
   }
 
   /**
@@ -286,7 +278,8 @@ class Importer {
     $files = $this->dataToImport;
 
     if (PHP_SAPI === 'cli') {
-      $this->accountSwitcher->switchTo($this->rootUser);
+      $root_user = $this->entityTypeManager->getStorage('user')->load(1);
+      $this->accountSwitcher->switchTo($root_user);
     }
 
     // All entities with entity references will be imported two times to ensure
@@ -310,11 +303,6 @@ class Importer {
           /** @var \Drupal\Core\Entity\ContentEntityInterface $entity */
           $entity = $this->serializer->denormalize($file['data'], $class, 'hal_json', ['request_method' => 'POST']);
           $entity->enforceIsNew($file['is_new']);
-          // Check if uid field exists for an entity.
-          // And refer it to user id 1.
-          if ($entity->hasField('uid')) {
-            $entity->uid->target_id = $this->rootUser->id();
-          }
           $entity->save();
           $this->entityIdLookup[$uuid] = $entity->id();
 
