@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+  color: #363636;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+main {
+  min-height: 300px;
+}
+
+.text-takeda {
+  color: $takeda !important;
+}
+
+strong,
+bold {
+  font-weight: 900;
+}
+
+h2 {
+  margin-bottom: 24px;
+}
+
+a {
+  color: $takeda;
+  text-decoration: none;
+}
+
+.btn-cta a,
+a.btn-cta,
+button.btn-cta {
+  font-size: 14px;
+  padding: 6px 15px;
+
+  &.btn-primary {
+    background-color: $takeda;
+    border: 1px solid $takeda;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      border: 1px solid $takeda;
+      background-color: $white;
+      color: $takeda;
+    }
+  }
+
+  &.btn-secondary {
+    background-color: transparent;
+    border: 1px solid $takeda;
+    color: $takeda;
+
+    &:hover,
+    &:focus {
+      border: 1px solid $takeda;
+      background-color: $takeda;
+      color: $white;
+    }
+  }
+}
+
+/*
+@media screen and (min-width:1024px) {
+    .btn_cta a,
+    a.btn_cta,
+    button.btn-cta {
+        font-size: 16px;
+        padding: 6px 15px
+    }
+}
+
+.btn-cta a.active,
+a.btn-cta.active,
+button.btn-cta.active {
+    background-color: #fff;
+    border: 1px solid $takeda;
+    color: $takeda
+}
+
+.btn-cta a span.fas,
+a.btn-cta span.fas,
+button.btn-cta span.fas {
+    margin-right: 6px
+}
+
+.btn-cta a.has-radius,
+a.btn-cta.has-radius,
+button.btn-cta.has-radius {
+    border-radius: 15px
+}
+
+.btn-cta a.is-grey,
+a.btn-cta.is-grey,
+button.btn-cta.is-grey {
+    background-color: #f0f0f0;
+    border: 1px solid #363636;
+    color: #363636
+}
+
+.btn-cta.small {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 10px
+}
+
+.btn_cta a:hover,
+a.btn_cta:hover,
+button.btn_cta:hover {
+    background-color: #fff;
+    border: 1px solid $takeda;
+    color: $takeda
+}
+
+.btn_cta a:hover.is-grey,
+a.btn_cta:hover.is-grey,
+button.btn_cta:hover.is-grey {
+    background-color: #f0f0f0;
+    border: 1px solid #363636;
+    color: $takeda
+}
+*/
+
+.btn_text a {
+  border: 0 solid #fff;
+  color: $takeda;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px 0 15px 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .btn_text a {
+    font-size: 16px;
+    padding: 6px 0;
+  }
+  .btn_text.has-icon {
+    padding: 6px 15px;
+  }
+}
+
+.btn_text.has-icon a:before {
+  color: $takeda;
+  content: '\f061';
+  font-family: Font awesome\5 Pro;
+  margin-right: 5px;
+}
+
+.align_left {
+  text-align: left;
+}
+
+.align_right {
+  text-align: right;
+}
+
+.align_center {
+  text-align: center;
+}
+
+hr {
+  border-top: 1px solid #363636;
+}
+
+.divider hr {
+  margin: 0;
+}

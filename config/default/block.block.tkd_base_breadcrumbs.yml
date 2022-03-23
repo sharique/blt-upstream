@@ -1,0 +1,22 @@
+uuid: fa96b5a9-4ae7-43a0-8e17-d39edd7831f0
+langcode: de
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_base
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: tkd_base_breadcrumbs
+theme: tkd_base
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

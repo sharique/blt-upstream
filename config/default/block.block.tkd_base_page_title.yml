@@ -1,0 +1,20 @@
+uuid: 62c10084-c776-45ae-9cef-d65422fd6361
+langcode: de
+status: true
+dependencies:
+  theme:
+    - tkd_base
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: tkd_base_page_title
+theme: tkd_base
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

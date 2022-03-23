@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/admin\/structure\/menu\/item\/6\/edit?_format=hal_json"
+            "href": "http:\/\/default\/en\/admin\/structure\/menu\/item\/25\/edit?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/menu_link_content\/menu_link_content"
@@ -9,7 +9,7 @@
     },
     "id": [
         {
-            "value": 6
+            "value": 25
         }
     ],
     "uuid": [

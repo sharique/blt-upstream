@@ -1,0 +1,8 @@
+uuid: fe4d986a-fa7a-4834-8423-e753ba477946
+langcode: de
+status: true
+dependencies: {  }
+id: header-icons
+label: 'Header Icons'
+description: ''
+locked: false

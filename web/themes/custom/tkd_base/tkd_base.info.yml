@@ -6,21 +6,18 @@ core_version_requirement: ^8 || ^9
 base theme: stable9
 
 regions:
-  sidebar_first: 'Left sidebar'
-  sidebar_second: 'Right sidebar'
-  content: 'Content'
-  header: 'Header'
-  primary_menu: 'Primary menu'
-  secondary_menu: 'Secondary menu'
-  footer: 'Footer'
+  header_top: 'Header dach'
+  header_main: 'Header main'
   highlighted: 'Highlighted'
-  help: 'Help'
-  page_top: 'Page top'
-  page_bottom: 'Page bottom'
   breadcrumb: 'Breadcrumb'
+  help: 'Help'
+  content: 'Content'
+  footer: 'Footer'
+  footer_end: 'Footer end'
 
 libraries:
   - core/normalize
+  - tkd_base/base
   - tkd_base/global
 
 components:

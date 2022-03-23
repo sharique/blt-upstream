@@ -1,0 +1,25 @@
+uuid: 6fccadad-bef2-47a1-8c35-7f4a19440623
+langcode: de
+status: true
+dependencies:
+  config:
+    - system.menu.header-icons
+  module:
+    - system
+  theme:
+    - tkd_base
+id: headericons
+theme: tkd_base
+region: header_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:header-icons'
+settings:
+  id: 'system_menu_block:header-icons'
+  label: 'Header Icons'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

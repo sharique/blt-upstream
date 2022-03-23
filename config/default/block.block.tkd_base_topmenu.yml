@@ -1,0 +1,25 @@
+uuid: d0e3d539-b92d-429f-a436-37df3b7b3cc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-menu
+  module:
+    - system
+  theme:
+    - tkd_base
+id: tkd_base_topmenu
+theme: tkd_base
+region: header_main
+weight: -7
+provider: null
+plugin: 'system_menu_block:top-menu'
+settings:
+  id: 'system_menu_block:top-menu'
+  label: 'Top menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

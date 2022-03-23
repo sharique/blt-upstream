@@ -1,0 +1,25 @@
+uuid: 6534cbf4-be1a-403d-8d3e-6206c0cc8e99
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-menu-2nd
+  module:
+    - system
+  theme:
+    - tkd_base
+id: tkd_base_footermenu2nd
+theme: tkd_base
+region: footer
+weight: -7
+provider: null
+plugin: 'system_menu_block:footer-menu-2nd'
+settings:
+  id: 'system_menu_block:footer-menu-2nd'
+  label: 'Footer menu 2nd'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

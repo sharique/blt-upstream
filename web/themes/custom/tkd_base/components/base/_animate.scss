@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+  .animate {
+    -webkit-transition: max-height 0.3s;
+    -moz-transition: max-height 0.3s;
+    -ms-transition: max-height 0.3s;
+    -o-transition: max-height 0.3s;
+    transition: max-height 0.3s;
+    overflow: hidden;
+    max-height: 0;
+  }
+}

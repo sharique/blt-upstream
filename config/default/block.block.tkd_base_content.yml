@@ -1,0 +1,22 @@
+uuid: 501e4ccd-1069-4887-9b08-a9f192af0bae
+langcode: de
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tkd_base
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tkd_base_content
+theme: tkd_base
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
