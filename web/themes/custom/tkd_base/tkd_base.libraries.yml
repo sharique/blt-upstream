@@ -1,12 +1,7 @@
 global:
   css:
-    #base:
-      #dist/components/base/_footer.css: {}
-      #dist/components/andre/andre--custom.css: {}
     theme:
-      dist/components/global.css: {}
-      #dist/components/andre/main.min.css: { minified: true }
-      #dist/components/andre/main--custom.css: { minified: true }
+      dist/components/global.css: { minified: true }
   js:
     dist/components/main.js:
       attributes:

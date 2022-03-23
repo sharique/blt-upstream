@@ -4,7 +4,7 @@ header.bm-header .dach .takeda-logo img {
   height: 25px;
   width: 75px;
 }
-#block-sitebranding {
+.region-header-main .block-system-branding-block {
   @extend .me-xl-5;
   @extend .me-md-3;
   @extend .nav;
@@ -35,7 +35,7 @@ header.bm-header .main-menu .nav-item .nav-link {
   text-transform: none;
   color: #ffffff;
 }
-#block-tkd-base-topmenu {
+.region-header-main .menu--top-menu {
   @extend .me-auto;
 }
 header.bm-header .main-menu .standard > .dropdown-menu {
