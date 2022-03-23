@@ -1,0 +1,22 @@
+uuid: bef817df-041a-444d-8a65-c13a7a97a08f
+langcode: de
+status: true
+dependencies:
+  theme:
+    - tkd_base
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: tkd_base_primary_local_tasks
+theme: tkd_base
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

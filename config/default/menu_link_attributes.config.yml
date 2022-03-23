@@ -1,0 +1,18 @@
+attributes:
+  data-heading:
+    label: Heading
+    description: 'Choose for heading style instead of default link style'
+    type: checkbox
+  container_class:
+    label: 'List item class'
+    description: 'Class for list item'
+  class:
+    label: 'Link class'
+    description: 'Class for link item'
+  target:
+    label: ''
+    description: ''
+    options:
+      _blank: 'New window (_blank)'
+      _self: 'Same window (_self)'
+    default_value: ''

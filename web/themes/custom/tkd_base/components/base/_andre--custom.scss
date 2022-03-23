@@ -1,0 +1,173 @@
+@import '../variables.scss';
+
+header.bm-header .dach .takeda-logo img {
+  height: 25px;
+  width: 75px;
+}
+#block-sitebranding {
+  @extend .me-xl-5;
+  @extend .me-md-3;
+  @extend .nav;
+}
+.region-header-main {
+  .site-name {
+    @extend .align-self-center;
+    padding: 12px 10px;
+    a {
+      position: relative;
+      padding: 0;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 400;
+      text-decoration: none;
+      text-transform: none;
+      color: $white;
+    }
+  }
+}
+header.bm-header .main-menu .nav-item .nav-link {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: none;
+  color: #ffffff;
+}
+#block-tkd-base-topmenu {
+  @extend .me-auto;
+}
+header.bm-header .main-menu .standard > .dropdown-menu {
+  border: none;
+  border-bottom: 4px solid $primary;
+  border-radius: 0;
+  background: #f0f0f0;
+  margin-top: 14px !important;
+  padding: 0;
+  z-index: 1999;
+}
+header.bm-header .main-menu li.standard .dropdown-item {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #808080;
+  text-decoration: none;
+}
+header.bm-header .main-menu .mega > .dropdown-menu {
+  border: none;
+  border-radius: 0;
+  padding: 48px 12px;
+  z-index: 1999;
+  -webkit-transform: translate3d(0px, 0px, 0px) !important;
+  transform: translate3d(0px, 0px, 0px) !important;
+  top: 105px !important;
+  left: 0 !important;
+  right: 0 !important;
+  margin: 0 auto !important;
+  max-width: 1280px;
+}
+header.bm-header .main-menu .mega > .dropdown-menu .nav-sub-item {
+  width: 25%;
+  position: inline-block;
+  float: left;
+}
+header.bm-header .main-menu .mega > .dropdown-menu .nav-sub-item h5 {
+  color: #363636;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+header.bm-header .main-menu .mega > .dropdown-menu .nav-sub-item .menu-inside {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header.bm-header
+  .main-menu
+  .mega
+  > .dropdown-menu
+  .nav-sub-item
+  .menu-inside
+  li {
+  background-color: #fff;
+  border-left: 2px solid #c6c6c6;
+  display: block;
+  margin-bottom: 2px;
+  padding: 0;
+  width: 100%;
+}
+header.bm-header
+  .main-menu
+  .mega
+  > .dropdown-menu
+  .nav-sub-item
+  .menu-inside
+  li
+  .dropdown-item {
+  padding: 6px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #808080;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: normal !important;
+}
+header.bm-header
+  .dach
+  .dropdown-menu:not(.info)
+  .nav-sub-item
+  .menu-inside
+  li
+  .dropdown-item:hover,
+header.bm-header
+  .main-menu
+  .mega
+  > .dropdown-menu
+  .nav-sub-item
+  .menu-inside
+  li
+  .dropdown-item:hover {
+  color: #0d0d0d;
+  background-color: #fff;
+}
+
+.fa::before,
+.fas::before,
+.far::before,
+.fal::before,
+.fad::before,
+.fab::before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+[class^='fa-']::before,
+[class*=' fa-']::before {
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+[class^='fas fa-']::before,
+[class*=' fas fa-']::before {
+  font-family: 'fa-solid-900' !important;
+}
+.fa-inverse::before {
+  color: #064a7a;
+}
+[class*='fa-'].has-circle::before {
+  background-color: white;
+  border-radius: 100%;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  box-sizing: border-box;
+}

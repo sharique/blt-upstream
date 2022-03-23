@@ -1,15 +1,20 @@
 global:
   css:
+    #base:
+      #dist/components/base/_footer.css: {}
+      #dist/components/andre/andre--custom.css: {}
     theme:
       dist/components/global.css: {}
+      #dist/components/andre/main.min.css: { minified: true }
+      #dist/components/andre/main--custom.css: { minified: true }
   js:
     dist/components/main.js:
       attributes:
         type: module
   dependencies:
-    - tkd_base/boostrap
+    - tkd_base/bootstrap
     - core/drupal
 
-boostrap:
+bootstrap:
   js:
     dist/libs/bootstrap.bundle.js: { minified: false}
