@@ -1,0 +1,151 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/4?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/node\/page"
+        },
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 4
+        }
+    ],
+    "uuid": [
+        {
+            "value": "01bbce8c-7f56-426d-bc6d-43b8acedcf21"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "page"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2022-03-23T12:23:14+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5a5a3240-b692-4f8e-9327-c37d6f8cb440"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5a5a3240-b692-4f8e-9327-c37d6f8cb440"
+                    }
+                ],
+                "lang": "de"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "title": [
+        {
+            "value": "Demo Page",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-23T12:22:45+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-03-23T12:23:14+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "de"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "de",
+            "lang": "de"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id orci ligula. Duis et sapien feugiat, ullamcorper erat nec, efficitur lectus. Integer ornare nisi ac tristique sodales. Nulla facilisis semper vehicula. Sed consequat est ligula, quis mattis mi ullamcorper id. Donec dapibus efficitur leo, ut dapibus tortor auctor sed. Nulla feugiat purus vitae euismod imperdiet.<\/p>\r\n\r\n<p>Mauris bibendum non libero nec dignissim. Pellentesque varius eleifend gravida. Duis rhoncus lacus nec quam blandit, id elementum libero finibus. Duis tempus, mauris ac eleifend laoreet, ipsum elit commodo elit, interdum congue leo tellus id tortor. Ut id bibendum dui. Cras semper neque vel sollicitudin venenatis. Aliquam consequat, mauris ut convallis venenatis, lorem ligula egestas sapien, et blandit nulla nunc a neque. Duis ac nunc ultrices, malesuada eros vitae, varius urna. Donec scelerisque metus ipsum, vel sagittis magna hendrerit quis.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id orci ligula. Duis et sapien feugiat, ullamcorper erat nec, efficitur lectus. Integer ornare nisi ac tristique sodales. Nulla facilisis semper vehicula. Sed consequat est ligula, quis mattis mi ullamcorper id. Donec dapibus efficitur leo, ut dapibus tortor auctor sed. Nulla feugiat purus vitae euismod imperdiet.<\/p>\n\n<p>Mauris bibendum non libero nec dignissim. Pellentesque varius eleifend gravida. Duis rhoncus lacus nec quam blandit, id elementum libero finibus. Duis tempus, mauris ac eleifend laoreet, ipsum elit commodo elit, interdum congue leo tellus id tortor. Ut id bibendum dui. Cras semper neque vel sollicitudin venenatis. Aliquam consequat, mauris ut convallis venenatis, lorem ligula egestas sapien, et blandit nulla nunc a neque. Duis ac nunc ultrices, malesuada eros vitae, varius urna. Donec scelerisque metus ipsum, vel sagittis magna hendrerit quis.<\/p>",
+            "summary": "",
+            "lang": "de"
+        }
+    ]
+}
