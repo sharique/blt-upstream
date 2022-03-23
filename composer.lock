@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad096b1d40deac7246bb3b2b79536794",
+    "content-hash": "b6c5b3d26a3a4485d5f9a4dbe8dfaa9d",
     "packages": [
         {
             "name": "acquia/blt",
-            "version": "13.3.0",
+            "version": "13.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/blt.git",
-                "reference": "82095ae8506550ff26743dc5942d238819e0f8ef"
+                "reference": "da018a63f7addad1dcb66a478eccb3f254fe4ced"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/blt/zipball/82095ae8506550ff26743dc5942d238819e0f8ef",
-                "reference": "82095ae8506550ff26743dc5942d238819e0f8ef",
+                "url": "https://api.github.com/repos/acquia/blt/zipball/da018a63f7addad1dcb66a478eccb3f254fe4ced",
+                "reference": "da018a63f7addad1dcb66a478eccb3f254fe4ced",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,7 @@
                 "consolidation/comments": "^1.0",
                 "consolidation/config": "^1.0.0",
                 "consolidation/robo": "^1.4.12 || ^2 || ^3",
-                "dflydev/dot-access-data": "^1.1.0",
+                "dflydev/dot-access-data": "^1.1.0 || ^2 || ^3",
                 "doctrine/annotations": "^1.10.0",
                 "drupal/core": "^9.0.0-alpha1",
                 "drush/drush": "^10.3 || ^11",
@@ -44,15 +44,13 @@
                 "zumba/amplitude-php": "^1.0"
             },
             "conflict": {
-                "acquia/blt-behat": "<=1.0.0",
-                "drupal/drupal": "*"
+                "acquia/blt-behat": "<=1.0.0"
             },
             "require-dev": {
                 "squizlabs/php_codesniffer": "^3.6"
             },
             "suggest": {
-                "davereid/drush-acquia-hook-invoke": "dev-master",
-                "typhonius/acquia_cli": "^2.0"
+                "davereid/drush-acquia-hook-invoke": "dev-master"
             },
             "bin": [
                 "bin/blt",
@@ -65,11 +63,6 @@
                     "dev-main": "13.x-dev"
                 },
                 "class": "Acquia\\Blt\\Composer\\Plugin",
-                "installer-paths": {
-                    "vendor/drupal/core": [
-                        "type:drupal-core"
-                    ]
-                },
                 "phpcodesniffer-search-depth": 4,
                 "violinist": {
                     "allow_updates_beyond_constraint": 0,
@@ -134,22 +127,22 @@
             "support": {
                 "docs": "https://docs.acquia.com/blt/",
                 "issues": "https://github.com/acquia/blt/issues",
-                "source": "https://github.com/acquia/blt/tree/13.3.0"
+                "source": "https://github.com/acquia/blt/tree/13.4.0"
             },
-            "time": "2022-02-28T18:28:20+00:00"
+            "time": "2022-03-15T19:49:29+00:00"
         },
         {
             "name": "acquia/drupal-environment-detector",
-            "version": "v1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/acquia/drupal-environment-detector.git",
-                "reference": "63b1bd0fd393c5e96e45042e2d7922682aaed6e4"
+                "reference": "1155ed6cd62cacc4dfa9545a612a4981d6560bcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/63b1bd0fd393c5e96e45042e2d7922682aaed6e4",
-                "reference": "63b1bd0fd393c5e96e45042e2d7922682aaed6e4",
+                "url": "https://api.github.com/repos/acquia/drupal-environment-detector/zipball/1155ed6cd62cacc4dfa9545a612a4981d6560bcc",
+                "reference": "1155ed6cd62cacc4dfa9545a612a4981d6560bcc",
                 "shasum": ""
             },
             "require-dev": {
@@ -184,9 +177,9 @@
             "description": "Provides common methods for detecting the current Acquia environment",
             "support": {
                 "issues": "https://github.com/acquia/drupal-environment-detector/issues",
-                "source": "https://github.com/acquia/drupal-environment-detector/tree/v1.4.0"
+                "source": "https://github.com/acquia/drupal-environment-detector/tree/1.4.1"
             },
-            "time": "2021-04-15T17:44:09+00:00"
+            "time": "2022-03-15T20:59:14+00:00"
         },
         {
             "name": "asm89/stack-cors",
@@ -2746,7 +2739,7 @@
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "9.3.7",
+            "version": "9.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
@@ -2790,7 +2783,7 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.7"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/9.3.9"
             },
             "time": "2022-02-24T17:40:56+00:00"
         },
@@ -10274,7 +10267,7 @@
         },
         {
             "name": "drupal/core-dev",
-            "version": "9.3.8",
+            "version": "9.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-dev.git",
@@ -10318,7 +10311,7 @@
             ],
             "description": "require-dev dependencies from drupal/drupal; use in addition to drupal/core-recommended to run tests from drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-dev/tree/9.3.8"
+                "source": "https://github.com/drupal/core-dev/tree/9.3.9"
             },
             "time": "2021-11-30T05:41:29+00:00"
         },
