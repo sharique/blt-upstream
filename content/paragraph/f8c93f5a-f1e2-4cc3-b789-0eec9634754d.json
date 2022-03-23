@@ -4,11 +4,11 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser_item"
+            "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
         },
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
             {
-                "href": "https:\/\/blt-upstream.lndo.site\/media\/1\/edit?_format=hal_json"
+                "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
             }
         ]
     },
@@ -78,27 +78,28 @@
             "lang": "de"
         }
     ],
-    "field_headline_hti": [
+    "field_headline": [
         {
-            "value": "This is the headline"
+            "value": "Headline 1",
+            "lang": "de"
         }
     ],
-    "field_link_url": [
+    "field_link": [
         {
-            "uri": "http:\/\/bitbasegroup.com",
+            "uri": "https:\/\/bitbasegroup.com",
             "title": "BITBASEGROUP",
             "options": []
         }
     ],
     "_embedded": {
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/media\/1\/edit?_format=hal_json"
+                        "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/media\/image"
+                        "href": "http:\/\/default\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [
@@ -111,9 +112,9 @@
     },
     "field_teaser_text": [
         {
-            "value": "<p>Here comes the teaser Text<\/p>\r\n",
+            "value": "<p>Here comes the teaser Text 1<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>Here comes the teaser Text<\/p>"
+            "processed": "<p>Here comes the teaser Text 1<\/p>"
         }
     ],
     "field_text_align": [

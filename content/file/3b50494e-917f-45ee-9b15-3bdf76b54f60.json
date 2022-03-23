@@ -4,11 +4,11 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/file\/file"
+            "href": "http:\/\/default\/rest\/type\/file\/file"
         },
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/file\/file\/uid": [
+        "http:\/\/default\/rest\/relation\/file\/file\/uid": [
             {
-                "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
             }
         ]
     },
@@ -28,14 +28,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/file\/file\/uid": [
+        "http:\/\/default\/rest\/relation\/file\/file\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [

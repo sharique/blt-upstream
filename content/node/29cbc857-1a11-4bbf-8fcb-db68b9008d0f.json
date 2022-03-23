@@ -1,23 +1,23 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/blt-upstream.lndo.site\/node\/4?_format=hal_json"
+            "href": "http:\/\/default\/node\/4?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/node\/page"
+            "href": "http:\/\/default\/rest\/type\/node\/page"
         },
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/revision_uid": [
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
             {
-                "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/uid": [
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
             {
-                "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
                 "lang": "de"
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/field_components": [
+        "http:\/\/default\/rest\/relation\/node\/page\/field_components": [
             {
                 "href": ""
             }
@@ -46,19 +46,19 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2022-03-21T22:57:30+00:00",
+            "value": "2022-03-23T09:52:35+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "_embedded": {
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/revision_uid": [
+        "http:\/\/default\/rest\/relation\/node\/page\/revision_uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -68,14 +68,14 @@
                 ]
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/uid": [
+        "http:\/\/default\/rest\/relation\/node\/page\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -86,14 +86,14 @@
                 "lang": "de"
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/node\/page\/field_components": [
+        "http:\/\/default\/rest\/relation\/node\/page\/field_components": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser"
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser"
                     }
                 },
                 "uuid": [
@@ -101,7 +101,7 @@
                         "value": "e633ce72-20c0-4498-85ec-4217cb02a002"
                     }
                 ],
-                "target_revision_id": "30"
+                "target_revision_id": "33"
             }
         ]
     },
@@ -126,7 +126,7 @@
     ],
     "changed": [
         {
-            "value": "2022-03-21T22:57:30+00:00",
+            "value": "2022-03-23T09:52:35+00:00",
             "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }

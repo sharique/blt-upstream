@@ -1,18 +1,16 @@
-uuid: 014dcf10-aca5-4286-85fb-81af267b14e5
+uuid: 32a47da3-b05c-46bd-a230-f46781774c13
 langcode: de
 status: true
 dependencies:
   module:
+    - link
     - paragraphs
-id: paragraph.field_headline_hti
-field_name: field_headline_hti
+id: paragraph.field_link
+field_name: field_link
 entity_type: paragraph
-type: string
-settings:
-  max_length: 255
-  case_sensitive: false
-  is_ascii: false
-module: core
+type: link
+settings: {  }
+module: link
 locked: false
 cardinality: 1
 translatable: true

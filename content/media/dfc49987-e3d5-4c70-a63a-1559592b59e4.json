@@ -1,24 +1,24 @@
 {
     "_links": {
         "self": {
-            "href": "https:\/\/blt-upstream.lndo.site\/media\/1\/edit?_format=hal_json"
+            "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
         },
         "type": {
-            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/media\/image"
+            "href": "http:\/\/default\/rest\/type\/media\/image"
         },
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/uid": [
+        "http:\/\/default\/rest\/relation\/media\/image\/uid": [
             {
-                "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json",
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
                 "lang": "de"
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/thumbnail": [
+        "http:\/\/default\/rest\/relation\/media\/image\/thumbnail": [
             {
                 "href": "",
                 "lang": "de"
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/field_media_image": [
+        "http:\/\/default\/rest\/relation\/media\/image\/field_media_image": [
             {
                 "href": "",
                 "lang": "de"
@@ -59,14 +59,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/uid": [
+        "http:\/\/default\/rest\/relation\/media\/image\/uid": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/en\/user\/1?_format=hal_json"
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/user\/user"
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
                     }
                 },
                 "uuid": [
@@ -77,14 +77,14 @@
                 "lang": "de"
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/thumbnail": [
+        "http:\/\/default\/rest\/relation\/media\/image\/thumbnail": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/file\/file"
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [
@@ -99,14 +99,14 @@
                 "height": "600"
             }
         ],
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/media\/image\/field_media_image": [
+        "http:\/\/default\/rest\/relation\/media\/image\/field_media_image": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/file\/file"
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
                     }
                 },
                 "uuid": [

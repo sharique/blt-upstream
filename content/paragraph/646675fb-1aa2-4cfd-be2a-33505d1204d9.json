@@ -4,11 +4,11 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser_item"
+            "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
         },
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
             {
-                "href": "https:\/\/blt-upstream.lndo.site\/media\/2\/edit?_format=hal_json"
+                "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
             }
         ]
     },
@@ -78,27 +78,28 @@
             "lang": "de"
         }
     ],
-    "field_headline_hti": [
+    "field_headline": [
         {
-            "value": "This is the headline 2"
+            "value": "Headline 2",
+            "lang": "de"
         }
     ],
-    "field_link_url": [
+    "field_link": [
         {
             "uri": "https:\/\/siteform.de",
-            "title": "SITEFORM",
+            "title": "Siteform",
             "options": []
         }
     ],
     "_embedded": {
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
             {
                 "_links": {
                     "self": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/media\/2\/edit?_format=hal_json"
+                        "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/media\/image"
+                        "href": "http:\/\/default\/rest\/type\/media\/image"
                     }
                 },
                 "uuid": [

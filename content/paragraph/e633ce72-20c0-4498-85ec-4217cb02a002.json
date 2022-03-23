@@ -4,9 +4,9 @@
             "href": ""
         },
         "type": {
-            "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser"
+            "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser"
         },
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
             {
                 "href": ""
             },
@@ -92,14 +92,14 @@
         }
     ],
     "_embedded": {
-        "https:\/\/blt-upstream.lndo.site\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser_item"
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
                     }
                 },
                 "uuid": [
@@ -107,7 +107,7 @@
                         "value": "f8c93f5a-f1e2-4cc3-b789-0eec9634754d"
                     }
                 ],
-                "target_revision_id": "28"
+                "target_revision_id": "31"
             },
             {
                 "_links": {
@@ -115,7 +115,7 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "https:\/\/blt-upstream.lndo.site\/rest\/type\/paragraph\/hero_teaser_item"
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
                     }
                 },
                 "uuid": [
@@ -123,7 +123,7 @@
                         "value": "646675fb-1aa2-4cfd-be2a-33505d1204d9"
                     }
                 ],
-                "target_revision_id": "29"
+                "target_revision_id": "32"
             }
         ]
     },

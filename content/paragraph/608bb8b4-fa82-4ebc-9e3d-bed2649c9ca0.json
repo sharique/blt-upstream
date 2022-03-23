@@ -51,7 +51,7 @@
     ],
     "parent_id": [
         {
-            "value": "1"
+            "value": "3"
         }
     ],
     "parent_type": [
@@ -102,7 +102,7 @@
                         "value": "d68a5867-f894-4c43-9d75-ebc76177f39a"
                     }
                 ],
-                "target_revision_id": "4"
+                "target_revision_id": "19"
             },
             {
                 "_links": {
@@ -118,7 +118,7 @@
                         "value": "7952910d-5158-4101-99c6-6143fdd2f31d"
                     }
                 ],
-                "target_revision_id": "5"
+                "target_revision_id": "20"
             }
         ]
     },
