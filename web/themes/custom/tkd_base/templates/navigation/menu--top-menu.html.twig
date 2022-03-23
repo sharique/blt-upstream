@@ -29,32 +29,39 @@
 {% macro menu_links(items, attributes, menu_level) %}
   {% import _self as menus %}
   {% if items %}
-    {% if menu_level == 0 %}
-      <ul{{ attributes.addClass('nav')|without('id') }}>
-    {% else %}
-      <ul class="dropdown-menu">
-    {% endif %}
+    {% set list_attributes = create_attribute() %}
+    {% set list_classes = [
+      menu_level == 0 ? 'nav',
+      menu_level == 1 ? 'dropdown-menu',
+      menu_level == 2 ? 'menu-inside',
+    ]%}
+    <ul{{ list_attributes.addClass(list_classes) }}>
     {% for item in items %}
       {%
         set classes = [
-          menu_level ? 'dropdown-item' : 'nav-item',
+          menu_level ? 'nav-sub-item' : 'nav-item',
+          not menu_level ? 'align-self-center',
           item.is_expanded ? 'menu-item--expanded',
           item.is_collapsed ? 'menu-item--collapsed',
           item.in_active_trail ? 'active',
-          item.below ? 'dropdown',
         ]
       %}
-      <li{{ item.attributes.addClass(classes,'branding','align-self-center') }}>
+
+      <li{{ item.attributes.addClass(classes)|without('data-mega-menu') }}>
         {%
           set link_classes = [
             not menu_level ? 'nav-link',
+            menu_level ? 'dropdown-item',
             item.in_active_trail ? 'active',
             item.url.getOption('attributes').class ? item.url.getOption('attributes').class | join(' '),
             'nav-link-' ~ item.url.toString() | clean_class,
           ]
         %}
-        {% if item.below %}
+        {% if item.below and menu_level == 0 %}
           {{ link(item.title, item.url, {'class': link_classes, 'data-bs-toggle': 'dropdown', 'aria-expanded': 'false', 'aria-haspopup': 'true' }) }}
+          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+        {% elseif item.below and menu_level == 1 %}
+          <h5>{{ item.title }}</h5>
           {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
         {% else %}
           {{ link(item.title, item.url, {'class': link_classes}) }}

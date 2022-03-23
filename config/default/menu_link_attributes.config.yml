@@ -1,10 +1,14 @@
-_core:
-  default_config_hash: kO5fDGTDu1JqYpxKrtzjdzwObU2Ko_3CxABNjqBbYos
-langcode: de
 attributes:
+  data-heading:
+    label: Heading
+    description: 'Choose for heading style instead of default link style'
+    type: checkbox
+  container_class:
+    label: 'List item class'
+    description: 'Class for list item'
   class:
-    label: ''
-    description: ''
+    label: 'Link class'
+    description: 'Class for link item'
   target:
     label: ''
     description: ''
