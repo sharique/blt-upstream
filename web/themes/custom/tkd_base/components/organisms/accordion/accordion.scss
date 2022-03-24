@@ -26,3 +26,9 @@
     }
   }
 }
+.cm-accordion .accordion-body > *:first-child {
+  margin-top: 0;
+}
+.cm-accordion .accordion-body > *:last-child {
+  margin-bottom: 0;
+}

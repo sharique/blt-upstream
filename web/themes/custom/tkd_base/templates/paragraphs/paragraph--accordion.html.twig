@@ -1,0 +1,95 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a paragraph.
+ *
+ * Available variables:
+ * - paragraph: Full paragraph entity.
+ *   Only method names starting with "get", "has", or "is" and a few common
+ *   methods such as "id", "label", and "bundle" are available. For example:
+ *   - paragraph.getCreatedTime() will return the paragraph creation timestamp.
+ *   - paragraph.id(): The paragraph ID.
+ *   - paragraph.bundle(): The type of the paragraph, for example, "image" or "text".
+ *   - paragraph.getOwnerId(): The user ID of the paragraph author.
+ *   See Drupal\paragraphs\Entity\Paragraph for a full list of public properties
+ *   and methods for the paragraph object.
+ * - content: All paragraph items. Use {{ content }} to print them all,
+ *   or print a subset such as {{ content.field_example }}. Use
+ *   {{ content|without('field_example') }} to temporarily suppress the printing
+ *   of a given child element.
+ * - attributes: HTML attributes for the containing element.
+ *   The attributes.class element may contain one or more of the following
+ *   classes:
+ *   - paragraphs: The current template type (also known as a "theming hook").
+ *   - paragraphs--type-[type]: The current paragraphs type. For example, if the paragraph is an
+ *     "Image" it would result in "paragraphs--type--image". Note that the machine
+ *     name will often be in a short form of the human readable label.
+ *   - paragraphs--view-mode--[view_mode]: The View Mode of the paragraph; for example, a
+ *     preview would result in: "paragraphs--view-mode--preview", and
+ *     default: "paragraphs--view-mode--default".
+ * - view_mode: View mode; for example, "preview" or "full".
+ * - logged_in: Flag for authenticated user status. Will be true when the
+ *   current user is a logged-in member.
+ * - is_admin: Flag for admin user status. Will be true when the current user
+ *   is an administrator.
+ *
+ * @see template_preprocess_paragraph()
+ *
+ * @ingroup themeable
+ */
+#}
+{{ attach_library('tkd_base/accordion') }}
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    'cm-accordion',
+    'accordion-flush',
+  ]
+%}
+
+{% set parent_id = 'accordion' ~ paragraph.id() %}
+{% set heading_attributes = create_attribute() %}
+{% set button_attributes = create_attribute() %}
+{% set button_classes = [
+  'accordion-button',
+  'collapsed',
+  paragraph.field_open_by_default.value == 'all_open' ? 'show',
+] %}
+{% set collapse_attributes = create_attribute() %}
+{% set collapse_classes = [
+  'accordion-collapse',
+  'collapse',
+  paragraph.field_open_by_default.value == 'all_open' ? 'show',
+] %}
+{% set exclusive = paragraph.field_exclusive.value == 1 ? false : true %}
+{% block paragraph %}
+	<section{{attributes.addClass(classes).setAttribute('id',parent_id)}}>
+		{% block content %}
+			{% for item in paragraph.field_items %}
+				{% set item_id = item.entity.id() %}
+				<div class="accordion-item">
+					<h2{{ heading_attributes.setAttribute('id','heading'~item_id).addClass('accordion-header') }}>
+						<button{{button_attributes.addClass(button_classes).setAttribute('type','button').setAttribute('data-bs-toggle','collapse').setAttribute('data-bs-target','#collapse'~item_id).setAttribute('aria-expanded','false').setAttribute('aria-controls','collapse'~item_id)}}>
+							{{ item.entity.field_headline.value }}
+						</button>
+					</h2>
+          {% if exclusive == true %}
+					  <div{{collapse_attributes.addClass(collapse_classes).setAttribute('id','collapse'~item_id).setAttribute('aria-labelledby','heading'~item_id).setAttribute('data-bs-parent','#'~parent_id) }}>
+          {% else %}
+					  <div{{collapse_attributes.addClass(collapse_classes).setAttribute('id','collapse'~item_id).setAttribute('aria-labelledby','heading'~item_id) }}>
+          {% endif %}
+						<div class="accordion-body">
+              {% autoescape false %}
+                {{ item.entity.field_copytext.value }}
+              {% endautoescape %}
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+
+		{% endblock %}
+	</section>
+{% endblock paragraph %}

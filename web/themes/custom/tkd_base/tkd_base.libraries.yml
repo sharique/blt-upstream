@@ -12,4 +12,8 @@ global:
 
 bootstrap:
   js:
-    dist/libs/bootstrap.bundle.js: { minified: false}
+    dist/libs/bootstrap.bundle.js: { minified: false }
+accordion:
+  css:
+    theme:
+      dist/components/organisms/accordion/accordion.css: { minified: true }
