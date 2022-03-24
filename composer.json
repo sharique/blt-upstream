@@ -84,6 +84,12 @@
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
+        },
+        "enable-patching": "true",
+        "patches": {
+            "drupal/default_content_deploy": {
+                "Avoid uid = 0 for import": "https://www.drupal.org/files/issues/2022-01-21/default_content_deploy-entity-uid-3130782-7.patch"
+            }
         }
     },
     "config": {

@@ -1,0 +1,23 @@
+uuid: 253a88ef-301c-469b-8a74-beb420ec2067
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_display_indicators
+    - paragraphs.paragraphs_type.hero_teaser
+id: paragraph.hero_teaser.field_display_indicators
+field_name: field_display_indicators
+entity_type: paragraph
+bundle: hero_teaser
+label: 'Display Indicators'
+description: "Defines if the Indicators to change the Slide are shown \r\nunchecked (Default) => No Indicators are shown \r\nChecked => Indicators are shown (Indicators need to be defined) "
+required: true
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'Yes'
+  off_label: 'No'
+field_type: boolean

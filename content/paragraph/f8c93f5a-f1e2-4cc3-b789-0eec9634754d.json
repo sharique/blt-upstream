@@ -1,0 +1,125 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
+        },
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+            {
+                "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 10
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f8c93f5a-f1e2-4cc3-b789-0eec9634754d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hero_teaser_item"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-21T22:48:35+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "12"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_hero_teaser_item"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "field_headline": [
+        {
+            "value": "Headline 1",
+            "lang": "de"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "https:\/\/bitbasegroup.com",
+            "title": "BITBASEGROUP",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/media\/image"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "dfc49987-e3d5-4c70-a63a-1559592b59e4"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_teaser_text": [
+        {
+            "value": "<p>Here comes the teaser Text 1<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Here comes the teaser Text 1<\/p>"
+        }
+    ],
+    "field_text_align": [
+        {
+            "value": "left"
+        }
+    ]
+}

@@ -1,21 +1,20 @@
-uuid: 890cfc53-b17c-4b4b-8e1b-d6a6dad4c189
-langcode: en
+uuid: 65194e6a-619e-4979-85d6-f529026e2acb
+langcode: de
 status: true
 dependencies:
   config:
-    - field.storage.node.field_components
-    - node.type.page
-    - paragraphs.paragraphs_type.accordion
+    - field.storage.paragraph.field_hero_teaser_item
     - paragraphs.paragraphs_type.hero_teaser
+    - paragraphs.paragraphs_type.hero_teaser_item
   module:
     - entity_reference_revisions
-id: node.page.field_components
-field_name: field_components
-entity_type: node
-bundle: page
-label: Components
+id: paragraph.hero_teaser.field_hero_teaser_item
+field_name: field_hero_teaser_item
+entity_type: paragraph
+bundle: hero_teaser
+label: 'Hero-Teaser item'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
@@ -23,20 +22,19 @@ settings:
   handler: 'default:paragraph'
   handler_settings:
     target_bundles:
-      accordion: accordion
-      hero_teaser: hero_teaser
+      hero_teaser_item: hero_teaser_item
     negate: 0
     target_bundles_drag_drop:
       accordion:
-        weight: 4
-        enabled: true
+        weight: 5
+        enabled: false
       accordion_item:
-        weight: 3
+        weight: 6
         enabled: false
       hero_teaser:
         weight: 7
-        enabled: true
+        enabled: false
       hero_teaser_item:
         weight: 8
-        enabled: false
+        enabled: true
 field_type: entity_reference_revisions

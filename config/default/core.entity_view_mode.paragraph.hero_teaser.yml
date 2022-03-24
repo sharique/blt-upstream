@@ -1,0 +1,10 @@
+uuid: 9d4b5c21-2abc-4091-9d2a-97d6e5cf25f9
+langcode: de
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.hero_teaser
+label: Hero-Teaser
+targetEntityType: paragraph
+cache: true
