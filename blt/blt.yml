@@ -6,6 +6,9 @@ project:
     name: minimal
 docroot: ${repo.root}/web
 validate:
+  twig:
+    filters:
+      - check_markup
   acsf: false
   deprecation:
     modules: true

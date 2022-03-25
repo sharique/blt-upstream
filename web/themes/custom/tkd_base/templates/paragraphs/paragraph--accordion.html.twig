@@ -51,45 +51,12 @@
 %}
 
 {% set parent_id = 'accordion' ~ paragraph.id() %}
-{% set heading_attributes = create_attribute() %}
-{% set button_attributes = create_attribute() %}
-{% set button_classes = [
-  'accordion-button',
-  'collapsed',
-  paragraph.field_open_by_default.value == 'all_open' ? 'show',
-] %}
-{% set collapse_attributes = create_attribute() %}
-{% set collapse_classes = [
-  'accordion-collapse',
-  'collapse',
-  paragraph.field_open_by_default.value == 'all_open' ? 'show',
-] %}
-{% set exclusive = paragraph.field_exclusive.value == 1 ? false : true %}
-{% block paragraph %}
-	<section{{attributes.addClass(classes).setAttribute('id',parent_id)}}>
-		{% block content %}
-			{% for item in paragraph.field_items %}
-				{% set item_id = item.entity.id() %}
-				<div class="accordion-item">
-					<h2{{ heading_attributes.setAttribute('id','heading'~item_id).addClass('accordion-header') }}>
-						<button{{button_attributes.addClass(button_classes).setAttribute('type','button').setAttribute('data-bs-toggle','collapse').setAttribute('data-bs-target','#collapse'~item_id).setAttribute('aria-expanded','false').setAttribute('aria-controls','collapse'~item_id)}}>
-							{{ item.entity.field_headline.value }}
-						</button>
-					</h2>
-          {% if exclusive == true %}
-					  <div{{collapse_attributes.addClass(collapse_classes).setAttribute('id','collapse'~item_id).setAttribute('aria-labelledby','heading'~item_id).setAttribute('data-bs-parent','#'~parent_id) }}>
-          {% else %}
-					  <div{{collapse_attributes.addClass(collapse_classes).setAttribute('id','collapse'~item_id).setAttribute('aria-labelledby','heading'~item_id) }}>
-          {% endif %}
-						<div class="accordion-body">
-              {% autoescape false %}
-                {{ item.entity.field_copytext.value }}
-              {% endautoescape %}
-						</div>
-					</div>
-				</div>
-			{% endfor %}
 
-		{% endblock %}
-	</section>
+{#% set accordion = paragraph %#}
+{% block paragraph %}
+  <section{{attributes.addClass(classes).setAttribute('id',parent_id)}}>
+    {% block content %}
+      {{ content }}
+    {% endblock %}
+  </section>
 {% endblock paragraph %}
