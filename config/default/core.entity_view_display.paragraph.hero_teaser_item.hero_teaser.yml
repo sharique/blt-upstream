@@ -9,6 +9,7 @@ dependencies:
     - field.field.paragraph.hero_teaser_item.field_media
     - field.field.paragraph.hero_teaser_item.field_teaser_text
     - field.field.paragraph.hero_teaser_item.field_text_align
+    - field.field.paragraph.hero_teaser_item.field_text_with_background
     - paragraphs.paragraphs_type.hero_teaser_item
   module:
     - link
@@ -56,3 +57,4 @@ content:
     region: content
 hidden:
   field_text_align: true
+  field_text_with_background: true

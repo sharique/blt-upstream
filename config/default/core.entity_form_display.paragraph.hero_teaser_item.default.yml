@@ -8,6 +8,7 @@ dependencies:
     - field.field.paragraph.hero_teaser_item.field_media
     - field.field.paragraph.hero_teaser_item.field_teaser_text
     - field.field.paragraph.hero_teaser_item.field_text_align
+    - field.field.paragraph.hero_teaser_item.field_text_with_background
     - paragraphs.paragraphs_type.hero_teaser_item
   module:
     - link
@@ -54,6 +55,13 @@ content:
     weight: 5
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_text_with_background:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
 hidden:
   created: true

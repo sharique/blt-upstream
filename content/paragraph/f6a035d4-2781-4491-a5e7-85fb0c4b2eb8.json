@@ -1,0 +1,130 @@
+{
+    "_links": {
+        "self": {
+            "href": ""
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
+        },
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+            {
+                "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
+            }
+        ]
+    },
+    "id": [
+        {
+            "value": 13
+        }
+    ],
+    "uuid": [
+        {
+            "value": "f6a035d4-2781-4491-a5e7-85fb0c4b2eb8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "hero_teaser_item"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-28T10:31:27+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "parent_id": [
+        {
+            "value": "3"
+        }
+    ],
+    "parent_type": [
+        {
+            "value": "paragraph"
+        }
+    ],
+    "parent_field_name": [
+        {
+            "value": "field_hero_teaser_item"
+        }
+    ],
+    "behavior_settings": [
+        {
+            "value": []
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "field_headline": [
+        {
+            "value": "Headline 3",
+            "lang": "de"
+        }
+    ],
+    "field_link": [
+        {
+            "uri": "https:\/\/youtube.com",
+            "title": "YOUTUBE",
+            "options": []
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/media\/video"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9856c516-b353-4ae4-9cdb-23c5c574e5d8"
+                    }
+                ]
+            }
+        ]
+    },
+    "field_teaser_text": [
+        {
+            "value": "<p>Here comes the teaser Text 3 with Video<\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Here comes the teaser Text 3 with Video<\/p>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget<\/p>"
+        }
+    ],
+    "field_text_align": [
+        {
+            "value": "left"
+        }
+    ],
+    "field_text_with_background": [
+        {
+            "value": false
+        }
+    ]
+}

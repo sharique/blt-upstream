@@ -1,0 +1,143 @@
+{
+    "_links": {
+        "self": {
+            "href": "https:\/\/default\/media\/3\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "https:\/\/default\/rest\/type\/media\/video"
+        },
+        "https:\/\/default\/rest\/relation\/media\/video\/uid": [
+            {
+                "href": "https:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "https:\/\/default\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "href": "",
+                "lang": "de"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 3
+        }
+    ],
+    "uuid": [
+        {
+            "value": "9856c516-b353-4ae4-9cdb-23c5c574e5d8"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "video"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-03-28T10:33:19+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "https:\/\/default\/rest\/relation\/media\/video\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "https:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "https:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "252cb8d0-be4b-49a4-8b6b-94aae2dbf24b"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "https:\/\/default\/rest\/relation\/media\/video\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "https:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "6d6b1f8b-f5fb-4c6a-8248-7bab3d5efc82"
+                    }
+                ],
+                "lang": "de",
+                "alt": "",
+                "title": null,
+                "width": "480",
+                "height": "360"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "Denk an ein Zebra, wenn du Hufe h\u00f6rst!",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-28T10:33:08+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-03-28T10:33:08+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "de",
+            "lang": "de"
+        }
+    ],
+    "field_media_oembed_video": [
+        {
+            "value": "https:\/\/www.youtube.com\/watch?v=dem6RKN80K8",
+            "lang": "de"
+        }
+    ]
+}
