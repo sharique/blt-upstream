@@ -32,6 +32,19 @@
         "drupal/twig_tweak": "^3.1",
         "drupal/webp": "^1.0@beta",
         "drush/drush": "^11.0",
+        "drupal/metatag": "^1.19",
+        "drupal/token": "^1.10",
+        "drupal/admin_toolbar": "^3.1",
+        "drupal/site_settings": "^1.19",
+        "drupal/config_ignore": "^3.0",
+        "drupal/default_content_deploy": "^2.0",
+        "drupal/better_normalizers": "1.x-dev",
+        "acquia/blt": "^13.0",
+        "drupal/config_split": "^2.0",
+        "drupal/config_filter": "^2.2",
+        "drupal/paragraphs": "^1.13",
+        "drupal/bootstrap_barrio": "^5.5",
+        "drupal/disable_language": "^1.0@beta",
         "pantheon-systems/drupal-integrations": "^9",
         "pantheon-upstreams/upstream-configuration": "*"
     },
@@ -72,6 +85,12 @@
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
+        },
+        "enable-patching": "true",
+        "patches": {
+            "drupal/default_content_deploy": {
+                "Avoid uid = 0 for import": "https://www.drupal.org/files/issues/2022-01-21/default_content_deploy-entity-uid-3130782-7.patch"
+            }
         }
     },
     "config": {

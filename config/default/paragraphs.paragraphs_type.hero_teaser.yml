@@ -1,0 +1,10 @@
+uuid: a0aad98c-f3d7-4cd3-9e23-b538ca025236
+langcode: de
+status: true
+dependencies: {  }
+id: hero_teaser
+label: Hero-Teaser
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: 1cee25f8-cdfc-471b-aec1-fc2ca0d732dd
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_teaser_text
+    - paragraphs.paragraphs_type.hero_teaser_item
+  module:
+    - text
+id: paragraph.hero_teaser_item.field_teaser_text
+field_name: field_teaser_text
+entity_type: paragraph
+bundle: hero_teaser_item
+label: 'Teaser Text'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
