@@ -1,0 +1,15 @@
+uuid: c9edae45-6041-4964-90c7-020498676ecc
+langcode: de
+status: true
+dependencies: {  }
+name: full_width
+label: 'Full Width (2400 x 800)'
+effects:
+  d5ebfeef-bc1a-467f-9a0c-036a133fb0d2:
+    uuid: d5ebfeef-bc1a-467f-9a0c-036a133fb0d2
+    id: image_scale
+    weight: 1
+    data:
+      width: 2400
+      height: 800
+      upscale: false

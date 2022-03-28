@@ -1,0 +1,23 @@
+uuid: ff8b0260-98dd-483a-a4ce-56666d9bccf8
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_style
+    - paragraphs.paragraphs_type.hero_teaser
+  module:
+    - options
+id: paragraph.hero_teaser.field_style
+field_name: field_style
+entity_type: paragraph
+bundle: hero_teaser
+label: Style
+description: 'Display of hero-teaser in default or alternative style.'
+required: true
+translatable: false
+default_value:
+  -
+    value: default
+default_value_callback: ''
+settings: {  }
+field_type: list_string

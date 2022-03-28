@@ -1,0 +1,58 @@
+uuid: e2865de6-0376-46c4-a9c8-13833c62511b
+langcode: de
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.paragraph.hero_teaser
+    - field.field.paragraph.hero_teaser_item.field_headline
+    - field.field.paragraph.hero_teaser_item.field_link
+    - field.field.paragraph.hero_teaser_item.field_media
+    - field.field.paragraph.hero_teaser_item.field_teaser_text
+    - field.field.paragraph.hero_teaser_item.field_text_align
+    - paragraphs.paragraphs_type.hero_teaser_item
+  module:
+    - link
+    - text
+id: paragraph.hero_teaser_item.hero_teaser
+targetEntityType: paragraph
+bundle: hero_teaser_item
+mode: hero_teaser
+content:
+  field_headline:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_media:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: media_library
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_teaser_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  field_text_align: true

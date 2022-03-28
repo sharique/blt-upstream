@@ -1,0 +1,30 @@
+uuid: 75278610-ec7d-4e7a-93cb-2168dd5b93dc
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.hero_teaser.field_display_indicators
+    - field.field.paragraph.hero_teaser.field_full_width
+    - field.field.paragraph.hero_teaser.field_hero_teaser_item
+    - field.field.paragraph.hero_teaser.field_style
+    - paragraphs.paragraphs_type.hero_teaser
+  module:
+    - entity_reference_revisions
+id: paragraph.hero_teaser.default
+targetEntityType: paragraph
+bundle: hero_teaser
+mode: default
+content:
+  field_hero_teaser_item:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_display_indicators: true
+  field_full_width: true
+  field_style: true

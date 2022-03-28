@@ -4,9 +4,9 @@
             "href": ""
         },
         "type": {
-            "href": "http:\/\/default\/rest\/type\/paragraph\/accordion"
+            "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser"
         },
-        "http:\/\/default\/rest\/relation\/paragraph\/accordion\/field_items": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
             {
                 "href": ""
             },
@@ -17,12 +17,12 @@
     },
     "id": [
         {
-            "value": 3
+            "value": 12
         }
     ],
     "uuid": [
         {
-            "value": "608bb8b4-fa82-4ebc-9e3d-bed2649c9ca0"
+            "value": "e633ce72-20c0-4498-85ec-4217cb02a002"
         }
     ],
     "langcode": [
@@ -33,7 +33,7 @@
     ],
     "type": [
         {
-            "target_id": "accordion"
+            "target_id": "hero_teaser"
         }
     ],
     "status": [
@@ -44,14 +44,14 @@
     ],
     "created": [
         {
-            "value": "2022-03-11T16:33:52+00:00",
+            "value": "2022-03-21T22:48:35+00:00",
             "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
     "parent_id": [
         {
-            "value": "3"
+            "value": "4"
         }
     ],
     "parent_type": [
@@ -81,28 +81,33 @@
             "lang": "de"
         }
     ],
-    "field_exclusive": [
+    "field_display_indicators": [
+        {
+            "value": true
+        }
+    ],
+    "field_full_width": [
         {
             "value": false
         }
     ],
     "_embedded": {
-        "http:\/\/default\/rest\/relation\/paragraph\/accordion\/field_items": [
+        "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser\/field_hero_teaser_item": [
             {
                 "_links": {
                     "self": {
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/default\/rest\/type\/paragraph\/accordion_item"
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "d68a5867-f894-4c43-9d75-ebc76177f39a"
+                        "value": "f8c93f5a-f1e2-4cc3-b789-0eec9634754d"
                     }
                 ],
-                "target_revision_id": "19"
+                "target_revision_id": "31"
             },
             {
                 "_links": {
@@ -110,21 +115,21 @@
                         "href": ""
                     },
                     "type": {
-                        "href": "http:\/\/default\/rest\/type\/paragraph\/accordion_item"
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "7952910d-5158-4101-99c6-6143fdd2f31d"
+                        "value": "646675fb-1aa2-4cfd-be2a-33505d1204d9"
                     }
                 ],
-                "target_revision_id": "20"
+                "target_revision_id": "32"
             }
         ]
     },
-    "field_open_by_default": [
+    "field_style": [
         {
-            "value": "all_close"
+            "value": "default"
         }
     ]
 }

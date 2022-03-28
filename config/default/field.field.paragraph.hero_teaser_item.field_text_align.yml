@@ -1,0 +1,23 @@
+uuid: 661aab2e-d83f-4c44-a5ea-3c76687d7966
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_align
+    - paragraphs.paragraphs_type.hero_teaser_item
+  module:
+    - options
+id: paragraph.hero_teaser_item.field_text_align
+field_name: field_text_align
+entity_type: paragraph
+bundle: hero_teaser_item
+label: 'Text Align'
+description: 'Defines where the Text should be aligned to.'
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

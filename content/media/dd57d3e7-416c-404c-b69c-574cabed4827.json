@@ -1,0 +1,165 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/media\/2\/edit?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/default\/rest\/type\/media\/image"
+        },
+        "http:\/\/default\/rest\/relation\/media\/image\/uid": [
+            {
+                "href": "http:\/\/default\/en\/user\/1?_format=hal_json",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "href": "",
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "href": "",
+                "lang": "de"
+            }
+        ]
+    },
+    "mid": [
+        {
+            "value": 2
+        }
+    ],
+    "uuid": [
+        {
+            "value": "dd57d3e7-416c-404c-b69c-574cabed4827"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "de",
+            "lang": "de"
+        }
+    ],
+    "bundle": [
+        {
+            "target_id": "image"
+        }
+    ],
+    "revision_created": [
+        {
+            "value": "2022-03-21T22:56:44+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/default\/rest\/relation\/media\/image\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/en\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "fb1bfbd6-7e0c-4d9a-8654-10c493a9529f"
+                    }
+                ],
+                "lang": "de"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/media\/image\/thumbnail": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1fa166ce-124c-45b2-bc5c-cb0b3bf6fc9e"
+                    }
+                ],
+                "lang": "de",
+                "alt": "an Image",
+                "title": null,
+                "width": "1440",
+                "height": "653"
+            }
+        ],
+        "http:\/\/default\/rest\/relation\/media\/image\/field_media_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1fa166ce-124c-45b2-bc5c-cb0b3bf6fc9e"
+                    }
+                ],
+                "lang": "de",
+                "alt": "an Image",
+                "title": "",
+                "width": "1440",
+                "height": "653"
+            }
+        ]
+    },
+    "name": [
+        {
+            "value": "hero_istockphoto-1248256677-2048x2048_tiny.jpg",
+            "lang": "de"
+        }
+    ],
+    "created": [
+        {
+            "value": "2022-03-21T22:56:37+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2022-03-21T22:56:37+00:00",
+            "lang": "de",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "de"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "de",
+            "lang": "de"
+        }
+    ]
+}
