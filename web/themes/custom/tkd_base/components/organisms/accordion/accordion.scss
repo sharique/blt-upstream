@@ -9,7 +9,7 @@
       background: #fff;
 
       &:after {
-        content: '\f067';
+        content: '\f068';
         font-family: 'fa-solid-900';
         font-size: 14px;
         background-image: none;
@@ -17,7 +17,7 @@
       }
 
       &.collapsed:after {
-        content: '\f068';
+        content: '\f067';
         font-family: 'fa-solid-900';
         font-size: 14px;
         background-image: none;
@@ -25,4 +25,10 @@
       }
     }
   }
+}
+.cm-accordion .accordion-body .field > *:first-child {
+  margin-top: 0;
+}
+.cm-accordion .accordion-body .field > *:last-child {
+  margin-bottom: 0;
 }

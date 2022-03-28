@@ -7,7 +7,6 @@ dependencies:
     - field.field.paragraph.accordion_item.field_headline
     - paragraphs.paragraphs_type.accordion_item
   module:
-    - html_formatter
     - text
 id: paragraph.accordion_item.default
 targetEntityType: paragraph
@@ -22,12 +21,10 @@ content:
     weight: 1
     region: content
   field_headline:
-    type: html_field_formatter
+    type: string
     label: hidden
     settings:
-      tag: h2
-      class: accordion-header
-      link: 0
+      link_to_entity: false
     third_party_settings: {  }
     weight: 0
     region: content
