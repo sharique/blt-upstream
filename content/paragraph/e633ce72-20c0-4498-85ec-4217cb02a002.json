@@ -12,12 +12,15 @@
             },
             {
                 "href": ""
+            },
+            {
+                "href": ""
             }
         ]
     },
     "id": [
         {
-            "value": 12
+            "value": 3
         }
     ],
     "uuid": [
@@ -51,7 +54,7 @@
     ],
     "parent_id": [
         {
-            "value": "4"
+            "value": "3"
         }
     ],
     "parent_type": [
@@ -107,7 +110,7 @@
                         "value": "f8c93f5a-f1e2-4cc3-b789-0eec9634754d"
                     }
                 ],
-                "target_revision_id": "31"
+                "target_revision_id": "41"
             },
             {
                 "_links": {
@@ -123,7 +126,23 @@
                         "value": "646675fb-1aa2-4cfd-be2a-33505d1204d9"
                     }
                 ],
-                "target_revision_id": "32"
+                "target_revision_id": "42"
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": ""
+                    },
+                    "type": {
+                        "href": "http:\/\/default\/rest\/type\/paragraph\/hero_teaser_item"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "b6aaf0f3-8636-4db8-ae7e-92cff86c0819"
+                    }
+                ],
+                "target_revision_id": "43"
             }
         ]
     },
