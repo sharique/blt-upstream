@@ -1,7 +1,7 @@
 {
     "_links": {
         "self": {
-            "href": "http:\/\/default\/node\/4?_format=hal_json"
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
         },
         "type": {
             "href": "http:\/\/default\/rest\/type\/node\/page"
@@ -25,7 +25,7 @@
     },
     "nid": [
         {
-            "value": 4
+            "value": 3
         }
     ],
     "uuid": [
@@ -46,7 +46,7 @@
     ],
     "revision_timestamp": [
         {
-            "value": "2022-03-23T09:52:35+00:00",
+            "value": "2022-03-28T14:08:13+00:00",
             "format": "Y-m-d\\TH:i:sP"
         }
     ],
@@ -63,7 +63,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "fb1bfbd6-7e0c-4d9a-8654-10c493a9529f"
+                        "value": "61a76b98-e0ab-4b8b-9903-34b660dbc4a3"
                     }
                 ]
             }
@@ -80,7 +80,7 @@
                 },
                 "uuid": [
                     {
-                        "value": "fb1bfbd6-7e0c-4d9a-8654-10c493a9529f"
+                        "value": "61a76b98-e0ab-4b8b-9903-34b660dbc4a3"
                     }
                 ],
                 "lang": "de"
@@ -101,7 +101,7 @@
                         "value": "e633ce72-20c0-4498-85ec-4217cb02a002"
                     }
                 ],
-                "target_revision_id": "33"
+                "target_revision_id": "44"
             }
         ]
     },
@@ -126,7 +126,7 @@
     ],
     "changed": [
         {
-            "value": "2022-03-23T09:52:35+00:00",
+            "value": "2022-03-28T14:08:13+00:00",
             "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -164,9 +164,9 @@
     ],
     "body": [
         {
-            "value": "<p>Here is an example of a Hero Teaser<\/p>\r\n",
+            "value": "<p>Here is an example of a Hero Teaser<\/p>\r\n\r\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>Here is an example of a Hero Teaser<\/p>",
+            "processed": "<p>Here is an example of a Hero Teaser<\/p>\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget<\/p>",
             "summary": "",
             "lang": "de"
         }

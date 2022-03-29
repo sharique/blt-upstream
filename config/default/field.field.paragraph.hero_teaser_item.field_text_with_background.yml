@@ -1,0 +1,23 @@
+uuid: 4a2d29db-c3e9-46a0-9b5c-8ae4b5d4b2fb
+langcode: de
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_text_with_background
+    - paragraphs.paragraphs_type.hero_teaser_item
+id: paragraph.hero_teaser_item.field_text_with_background
+field_name: field_text_with_background
+entity_type: paragraph
+bundle: hero_teaser_item
+label: 'Text with Background'
+description: 'Display text with background with a opacity of 70%'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

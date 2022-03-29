@@ -8,18 +8,18 @@
         },
         "http:\/\/default\/rest\/relation\/paragraph\/hero_teaser_item\/field_media": [
             {
-                "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+                "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
             }
         ]
     },
     "id": [
         {
-            "value": 2
+            "value": 14
         }
     ],
     "uuid": [
         {
-            "value": "646675fb-1aa2-4cfd-be2a-33505d1204d9"
+            "value": "b6aaf0f3-8636-4db8-ae7e-92cff86c0819"
         }
     ],
     "langcode": [
@@ -41,7 +41,7 @@
     ],
     "created": [
         {
-            "value": "2022-03-21T22:52:49+00:00",
+            "value": "2022-03-28T14:06:58+00:00",
             "lang": "de",
             "format": "Y-m-d\\TH:i:sP"
         }
@@ -80,14 +80,14 @@
     ],
     "field_headline": [
         {
-            "value": "Headline 2",
+            "value": "Headline 3",
             "lang": "de"
         }
     ],
     "field_link": [
         {
-            "uri": "https:\/\/siteform.de",
-            "title": "Siteform",
+            "uri": "https:\/\/youtube.com",
+            "title": "YOUTUBE",
             "options": []
         }
     ],
@@ -96,15 +96,15 @@
             {
                 "_links": {
                     "self": {
-                        "href": "http:\/\/default\/media\/1\/edit?_format=hal_json"
+                        "href": "http:\/\/default\/media\/3\/edit?_format=hal_json"
                     },
                     "type": {
-                        "href": "http:\/\/default\/rest\/type\/media\/image"
+                        "href": "http:\/\/default\/rest\/type\/media\/video"
                     }
                 },
                 "uuid": [
                     {
-                        "value": "dd57d3e7-416c-404c-b69c-574cabed4827"
+                        "value": "9856c516-b353-4ae4-9cdb-23c5c574e5d8"
                     }
                 ]
             }
@@ -112,9 +112,9 @@
     },
     "field_teaser_text": [
         {
-            "value": "<p>Here comes the teaser Text 2 with background text<br \/>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget.<\/p>\r\n",
+            "value": "<p>Here comes the teaser Text 3 with video<br \/>\r\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget.<\/p>\r\n",
             "format": "basic_html",
-            "processed": "<p>Here comes the teaser Text 2 with background text<br \/>\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget.<\/p>"
+            "processed": "<p>Here comes the teaser Text 3 with video<br \/>\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget.<\/p>"
         }
     ],
     "field_text_align": [
@@ -124,7 +124,7 @@
     ],
     "field_text_with_background": [
         {
-            "value": true
+            "value": false
         }
     ]
 }
